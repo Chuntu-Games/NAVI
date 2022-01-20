@@ -4,7 +4,6 @@
 # * https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # Unity
-/[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
