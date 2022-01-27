@@ -386,7 +386,6 @@
 "Assets/DreamForestTree/PostProcessing/Editor/Utils/EditorResources.cs"
 "Assets/DreamForestTree/PostProcessing/Editor/Utils/FxStyles.cs"
 "Assets/DreamForestTree/PostProcessing/Editor/Utils/ReflectionUtils.cs"
-"Assets/SampleSceneAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 "Assets/Vladislav Tsurikov/Mega World/Scripts/Core/Selection Data/Editor/GroupEditor.cs"
 -langversion:8.0
 

@@ -387,7 +387,6 @@
 "Assets/SampleSceneAssets/Scripts/LookWithMouse.cs"
 "Assets/SampleSceneAssets/Scripts/PlayerMovement.cs"
 "Assets/SampleSceneAssets/Scripts/SimpleCameraController.cs"
-"Assets/SampleSceneAssets/TutorialInfo/Scripts/Readme.cs"
 "Assets/Vladislav Tsurikov/Core/Scripts/CommonPath.cs"
 "Assets/Vladislav Tsurikov/Core/Scripts/GUI/InternalDragAndDrop.cs"
 "Assets/Vladislav Tsurikov/Core/Scripts/IHasRect.cs"
