@@ -38,12 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD
-=======
-  m_IndirectSpecularColor: {r: 1.0232878, g: 1.267621, b: 1.6780224, a: 1}
-  m_UseRadianceAmbientProbe: 0
---- !u!157 &3
->>>>>>> parent of d16a62b4 (mas assets)
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
