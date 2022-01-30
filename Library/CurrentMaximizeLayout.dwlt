@@ -21,10 +21,17 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 678, y: 342}
   m_MaxSize: {x: 12003, y: 8042}
   vertical: 0
   controlID: 69
+=======
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 2759
+>>>>>>> parent of d16a62b4 (mas assets)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -45,9 +52,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 404
     y: 19
     width: 962
+=======
+    x: 647
+    y: 73
+    width: 878
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -56,7 +69,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 962, y: 519}
+=======
+  m_TargetSize: {x: 878, y: 519}
+>>>>>>> parent of d16a62b4 (mas assets)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -71,8 +88,13 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -481
     m_HBaseRangeMax: 481
+=======
+    m_HBaseRangeMin: -439
+    m_HBaseRangeMax: 439
+>>>>>>> parent of d16a62b4 (mas assets)
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
@@ -83,7 +105,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -92,16 +114,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 962
       height: 519
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 481, y: 259.5}
+=======
+      width: 878
+      height: 519
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 439, y: 259.5}
+>>>>>>> parent of d16a62b4 (mas assets)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -481
       y: -259.5
       width: 962
@@ -109,6 +139,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 962, y: 540}
+=======
+      x: -439
+      y: -259.5
+      width: 878
+      height: 519
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 878, y: 540}
+>>>>>>> parent of d16a62b4 (mas assets)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -133,12 +172,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1367
+=======
+    width: 1527
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 947
   m_MinSize: {x: 402, y: 342}
   m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 70
+=======
+  controlID: 2706
+>>>>>>> parent of d16a62b4 (mas assets)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,12 +205,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1367
+=======
+    width: 1527
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 561
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 38
+=======
+  controlID: 2681
+>>>>>>> parent of d16a62b4 (mas assets)
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,7 +236,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 403
+=======
+    width: 647
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 561
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -212,7 +271,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 402
+=======
+    width: 646
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -220,7 +283,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: f292ffff1e93ffffa898ffffea9affff429cffffa09dfffffe9effff9aa4ffff92bcffff24c2ffffb2c7ffffa6dfffffa8f7ffff26fbffff14a60000
+=======
+      m_ExpandedIDs: 34fbffff1a6f0000
+>>>>>>> parent of d16a62b4 (mas assets)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -259,9 +326,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 403
     y: 0
     width: 964
+=======
+    x: 647
+    y: 0
+    width: 880
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -307,9 +380,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 219.75197, y: -2.7886696, z: 261.0175}
     speed: 2
     m_Value: {x: 219.75197, y: -2.7886696, z: 261.0175}
+=======
+    m_Target: {x: 283.83725, y: 57.305576, z: 279.155}
+    speed: 2
+    m_Value: {x: 283.83725, y: 57.305576, z: 279.155}
+>>>>>>> parent of d16a62b4 (mas assets)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -356,6 +435,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.26834112, y: -0.14326246, z: 0.040391866, w: -0.9517555}
     speed: 2
     m_Value: {x: -0.26834098, y: -0.14326237, z: 0.040391844, w: -0.9517549}
@@ -363,6 +443,15 @@ MonoBehaviour:
     m_Target: 60.23568
     speed: 2
     m_Value: 60.23568
+=======
+    m_Target: {x: -0.13528208, y: -0.3075122, z: 0.04421671, w: -0.9408404}
+    speed: 2
+    m_Value: {x: -0.13528204, y: -0.30751207, z: 0.044216696, w: -0.94084007}
+  m_Size:
+    m_Target: 36.73029
+    speed: 2
+    m_Value: 36.73029
+>>>>>>> parent of d16a62b4 (mas assets)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -404,7 +493,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 561
+<<<<<<< HEAD
     width: 1367
+=======
+    width: 1527
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 386
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -436,7 +529,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
+<<<<<<< HEAD
     width: 1366
+=======
+    width: 1526
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -452,22 +549,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/SampleSceneAssets/Scripts
+>>>>>>> parent of d16a62b4 (mas assets)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/SampleSceneAssets/Scripts
+>>>>>>> parent of d16a62b4 (mas assets)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\NAVI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 066f0000
     m_LastClickedID: 28422
     m_ExpandedIDs: 00000000066f0000086f00000a6f00000c6f00000e6f0000106f0000126f0000146f0000166f0000186f00001a6f00001c6f00001e6f0000206f0000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000306f0000326f0000346f0000366f0000386f00003a6f00003c6f00003e6f0000406f0000426f000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 395}
+    m_SelectedIDs: 46730000
+    m_LastClickedID: 29510
+    m_ExpandedIDs: 000000006a7000006c7000006e70000070700000727000007470000076700000787000007a7000007c7000007e70000080700000827000008470000086700000887000008a7000008c7000008e70000090700000927000009470000096700000987000009a7000009c7000009e700000a0700000a2700000a4700000a6700000c870000000ca9a3b
+>>>>>>> parent of d16a62b4 (mas assets)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,7 +607,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000066f0000086f00000a6f00000c6f00000e6f0000106f0000126f0000146f0000166f0000186f00001a6f00001c6f00001e6f0000206f0000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000306f0000326f0000346f0000366f0000386f00003a6f00003c6f00003e6f0000406f0000426f0000
+=======
+    m_ExpandedIDs: 000000006a7000006c7000006e70000070700000727000007470000076700000787000007a7000007c7000007e70000080700000827000008470000086700000887000008a7000008c7000008e70000090700000927000009470000096700000987000009a7000009c7000009e700000a0700000a2700000a4700000a670000000ca9a3b
+>>>>>>> parent of d16a62b4 (mas assets)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,8 +636,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 70700000
     m_LastClickedInstanceID: 28784
+=======
+    m_SelectedInstanceIDs: c0faffff
+    m_LastClickedInstanceID: -1344
+>>>>>>> parent of d16a62b4 (mas assets)
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -539,7 +660,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -591,9 +712,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1367
     y: 0
     width: 553
+=======
+    x: 1527
+    y: 0
+    width: 393
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -622,9 +749,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1367
     y: 73
     width: 552
+=======
+    x: 1527
+    y: 73
+    width: 392
+>>>>>>> parent of d16a62b4 (mas assets)
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -633,8 +766,13 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 42516
   m_LastVerticalScrollValue: 0
+=======
+  m_LastInspectedObjectInstanceID: -1344
+  m_LastVerticalScrollValue: 348
+>>>>>>> parent of d16a62b4 (mas assets)
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
