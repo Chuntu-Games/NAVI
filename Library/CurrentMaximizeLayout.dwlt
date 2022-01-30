@@ -21,24 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
   vertical: 0
-  controlID: 2655
-=======
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
-  vertical: 0
-  controlID: 16029
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
-  vertical: 0
-  controlID: 2759
->>>>>>> parent of d16a62b4 (mas assets)
+  controlID: 69
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,21 +45,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 400
-    y: 73
-    width: 966
-=======
-    x: 403
-    y: 73
+    x: 404
+    y: 19
     width: 962
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    x: 647
-    y: 73
-    width: 878
->>>>>>> parent of d16a62b4 (mas assets)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -82,15 +56,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_TargetSize: {x: 966, y: 519}
-=======
   m_TargetSize: {x: 962, y: 519}
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-  m_TargetSize: {x: 878, y: 519}
->>>>>>> parent of d16a62b4 (mas assets)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -105,18 +71,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HBaseRangeMin: -483
-    m_HBaseRangeMax: 483
-=======
     m_HBaseRangeMin: -481
     m_HBaseRangeMax: 481
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    m_HBaseRangeMin: -439
-    m_HBaseRangeMax: 439
->>>>>>> parent of d16a62b4 (mas assets)
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
@@ -127,7 +83,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -136,44 +92,16 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-<<<<<<< HEAD
-      width: 966
-      height: 519
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 483, y: 259.5}
-=======
       width: 962
       height: 519
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 481, y: 259.5}
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-      width: 878
-      height: 519
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 439, y: 259.5}
->>>>>>> parent of d16a62b4 (mas assets)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-      x: -483
-=======
-      x: -439
->>>>>>> parent of d16a62b4 (mas assets)
-      y: -259.5
-      width: 878
-      height: 519
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 966, y: 540}
-=======
       x: -481
       y: -259.5
       width: 962
@@ -181,10 +109,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 962, y: 540}
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-  m_LastWindowPixelSize: {x: 878, y: 540}
->>>>>>> parent of d16a62b4 (mas assets)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -209,28 +133,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1368
-=======
     width: 1367
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    width: 1527
->>>>>>> parent of d16a62b4 (mas assets)
     height: 947
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 2656
-=======
-  controlID: 16030
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-  controlID: 2706
->>>>>>> parent of d16a62b4 (mas assets)
+  controlID: 70
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,28 +158,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1368
-=======
     width: 1367
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    width: 1527
->>>>>>> parent of d16a62b4 (mas assets)
     height: 561
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 2657
-=======
-  controlID: 16031
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-  controlID: 2681
->>>>>>> parent of d16a62b4 (mas assets)
+  controlID: 38
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,15 +181,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 400
-=======
     width: 403
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    width: 647
->>>>>>> parent of d16a62b4 (mas assets)
     height: 561
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -328,15 +212,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 399
-=======
     width: 402
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    width: 646
->>>>>>> parent of d16a62b4 (mas assets)
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -344,15 +220,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ExpandedIDs: 3ad6ffff4ad6ffff4adeffff50e0ffffcef2ffff42fbffff
-=======
-      m_ExpandedIDs: 42fbffff
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-      m_ExpandedIDs: 34fbffff1a6f0000
->>>>>>> parent of d16a62b4 (mas assets)
+      m_ExpandedIDs: f292ffff1e93ffffa898ffffea9affff429cffffa09dfffffe9effff9aa4ffff92bcffff24c2ffffb2c7ffffa6dfffffa8f7ffff26fbffff14a60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -391,21 +259,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 400
-    y: 0
-    width: 968
-=======
     x: 403
     y: 0
     width: 964
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    x: 647
-    y: 0
-    width: 880
->>>>>>> parent of d16a62b4 (mas assets)
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -451,21 +307,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -366.1086, y: 4.895315, z: -476.5556}
+    m_Target: {x: 219.75197, y: -2.7886696, z: 261.0175}
     speed: 2
-    m_Value: {x: -366.1086, y: 4.895315, z: -476.5556}
-=======
-    m_Target: {x: 267.06116, y: 44.64342, z: 275.47678}
-    speed: 2
-    m_Value: {x: 267.06116, y: 44.64342, z: 275.47678}
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    m_Target: {x: 283.83725, y: 57.305576, z: 279.155}
-    speed: 2
-    m_Value: {x: 283.83725, y: 57.305576, z: 279.155}
->>>>>>> parent of d16a62b4 (mas assets)
+    m_Value: {x: 219.75197, y: -2.7886696, z: 261.0175}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -512,31 +356,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: 0.19618751, y: 0.71005535, z: -0.21755503, w: 0.64031816}
-=======
-    m_Target: {x: -0.13528208, y: -0.3075122, z: 0.04421671, w: -0.9408404}
->>>>>>> parent of d16a62b4 (mas assets)
+    m_Target: {x: -0.26834112, y: -0.14326246, z: 0.040391866, w: -0.9517555}
     speed: 2
-    m_Value: {x: -0.13528204, y: -0.30751207, z: 0.044216696, w: -0.94084007}
+    m_Value: {x: -0.26834098, y: -0.14326237, z: 0.040391844, w: -0.9517549}
   m_Size:
-    m_Target: 36.73029
+    m_Target: 60.23568
     speed: 2
-<<<<<<< HEAD
-    m_Value: 10.377661
-=======
-    m_Target: {x: -0.42490658, y: 0.057506073, z: -0.027059352, w: -0.9030036}
-    speed: 2
-    m_Value: {x: -0.42490652, y: 0.057506066, z: -0.027059348, w: -0.90300345}
-  m_Size:
-    m_Target: 12.953757
-    speed: 2
-    m_Value: 12.953757
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    m_Value: 36.73029
->>>>>>> parent of d16a62b4 (mas assets)
+    m_Value: 60.23568
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -571,31 +397,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 561
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1368
-=======
     width: 1367
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    width: 1527
->>>>>>> parent of d16a62b4 (mas assets)
     height: 386
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 10}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 10}
   - {fileID: 11}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -618,15 +436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1367
-=======
     width: 1366
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    width: 1526
->>>>>>> parent of d16a62b4 (mas assets)
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -642,52 +452,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/Scenes
-=======
     - Assets
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    - Assets/SampleSceneAssets/Scripts
->>>>>>> parent of d16a62b4 (mas assets)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets/Scenes
-=======
   - Assets
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-  - Assets/SampleSceneAssets/Scripts
->>>>>>> parent of d16a62b4 (mas assets)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\NAVI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 55}
-    m_SelectedIDs: 76770000
-    m_LastClickedID: 30582
-    m_ExpandedIDs: 000000000477000006770000087700000a7700000c7700000e77000010770000127700001477000016770000187700001a7700001c7700001e77000020770000227700002477000026770000287700002a7700002c7700002e77000030770000327700003477000036770000387700003a7700003c7700003e77000000ca9a3b
-=======
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a08c0000
-    m_LastClickedID: 36000
-    m_ExpandedIDs: 00000000a08c0000a28c0000a48c0000a68c0000a88c0000aa8c0000ac8c0000ae8c0000b08c0000b28c0000b48c0000b68c0000b88c0000ba8c0000bc8c0000be8c0000c08c0000c28c0000c48c0000c68c0000c88c0000ca8c0000cc8c0000ce8c0000d08c0000d28c0000d48c0000d68c0000d88c0000f28c0000628f000000ca9a3b
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    scrollPos: {x: 0, y: 395}
-    m_SelectedIDs: 46730000
-    m_LastClickedID: 29510
-    m_ExpandedIDs: 000000006a7000006c7000006e70000070700000727000007470000076700000787000007a7000007c7000007e70000080700000827000008470000086700000887000008a7000008c7000008e70000090700000927000009470000096700000987000009a7000009c7000009e700000a0700000a2700000a4700000a6700000c870000000ca9a3b
->>>>>>> parent of d16a62b4 (mas assets)
+    m_SelectedIDs: 066f0000
+    m_LastClickedID: 28422
+    m_ExpandedIDs: 00000000066f0000086f00000a6f00000c6f00000e6f0000106f0000126f0000146f0000166f0000186f00001a6f00001c6f00001e6f0000206f0000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000306f0000326f0000346f0000366f0000386f00003a6f00003c6f00003e6f0000406f0000426f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -715,15 +495,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000000477000006770000087700000a7700000c7700000e77000010770000127700001477000016770000187700001a7700001c7700001e77000020770000227700002477000026770000287700002a7700002c7700002e77000030770000327700003477000036770000387700003a7700003c7700003e77000000ca9a3b
-=======
-    m_ExpandedIDs: 00000000a08c0000a28c0000a48c0000a68c0000a88c0000aa8c0000ac8c0000ae8c0000b08c0000b28c0000b48c0000b68c0000b88c0000ba8c0000bc8c0000be8c0000c08c0000c28c0000c48c0000c68c0000c88c0000ca8c0000cc8c0000ce8c0000d08c0000d28c0000d48c0000d68c0000d88c0000f28c0000628f000000ca9a3b
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    m_ExpandedIDs: 000000006a7000006c7000006e70000070700000727000007470000076700000787000007a7000007c7000007e70000080700000827000008470000086700000887000008a7000008c7000008e70000090700000927000009470000096700000987000009a7000009c7000009e700000a0700000a2700000a4700000a670000000ca9a3b
->>>>>>> parent of d16a62b4 (mas assets)
+    m_ExpandedIDs: 00000000066f0000086f00000a6f00000c6f00000e6f0000106f0000126f0000146f0000166f0000186f00001a6f00001c6f00001e6f0000206f0000226f0000246f0000266f0000286f00002a6f00002c6f00002e6f0000306f0000326f0000346f0000366f0000386f00003a6f00003c6f00003e6f0000406f0000426f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,8 +520,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c0faffff
-    m_LastClickedInstanceID: -1344
+    m_SelectedInstanceIDs: 70700000
+    m_LastClickedInstanceID: 28784
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -767,7 +539,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -819,21 +591,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1368
-    y: 0
-    width: 552
-=======
     x: 1367
     y: 0
     width: 553
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    x: 1527
-    y: 0
-    width: 393
->>>>>>> parent of d16a62b4 (mas assets)
     height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -862,21 +622,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1368
-    y: 73
-    width: 551
-=======
     x: 1367
     y: 73
     width: 552
->>>>>>> parent of a6695b19 (arreglos movimiento)
-=======
-    x: 1527
-    y: 73
-    width: 392
->>>>>>> parent of d16a62b4 (mas assets)
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -885,8 +633,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1344
-  m_LastVerticalScrollValue: 348
+  m_LastInspectedObjectInstanceID: 42516
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
