@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 1.0233192, g: 1.267849, b: 1.6784401, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> parent of a6695b19 (arreglos movimiento)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -237,11 +241,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a01027230197f124299d65cd1d2a612a, type: 3}
---- !u!4 &323842196 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 738646681763345176, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-  m_PrefabInstance: {fileID: 2124450544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &934355735 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
@@ -1009,16 +1008,6 @@ MonoBehaviour:
   lightSource: {fileID: 1261790552}
   clickSound: {fileID: 1111528065}
   failSafe: 0
---- !u!143 &1861717853 stripped
-CharacterController:
-  m_CorrespondingSourceObject: {fileID: 738646681744756155, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-  m_PrefabInstance: {fileID: 2124450544}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1861717854 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 738646681744756156, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-  m_PrefabInstance: {fileID: 2124450544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1863832971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,10 +1253,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 4.5
       objectReference: {fileID: 0}
-    - target: {fileID: 738646681595172702, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-      propertyPath: playerBody
-      value: 
-      objectReference: {fileID: 1861717854}
     - target: {fileID: 738646681744756154, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_Name
       value: PlayerControllerFPS
@@ -1336,14 +1321,6 @@ PrefabInstance:
       propertyPath: groundMask.m_Bits
       value: 512
       objectReference: {fileID: 0}
-    - target: {fileID: 822243429660369720, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 1861717853}
-    - target: {fileID: 822243429660369720, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 323842196}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
 --- !u!1001 &2144330607
