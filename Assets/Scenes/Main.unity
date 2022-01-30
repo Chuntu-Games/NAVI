@@ -39,10 +39,14 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 1.0233192, g: 1.267849, b: 1.6784401, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 >>>>>>> parent of a6695b19 (arreglos movimiento)
+=======
+  m_IndirectSpecularColor: {r: 1.0232878, g: 1.267621, b: 1.6780224, a: 1}
+>>>>>>> parent of d16a62b4 (mas assets)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
