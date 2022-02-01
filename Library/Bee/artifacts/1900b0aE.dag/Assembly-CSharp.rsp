@@ -382,6 +382,9 @@
 "Assets/DreamForestTree/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/DreamForestTree/Script/FreeCam.cs"
 "Assets/Props/flashlight/FlashLightMech.cs"
+"Assets/SampleSceneAssets/Scripts/LookWithMouse.cs"
+"Assets/SampleSceneAssets/Scripts/PlayerMovement.cs"
+"Assets/SampleSceneAssets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/SceneSwitch.cs"
 -langversion:8.0
 
