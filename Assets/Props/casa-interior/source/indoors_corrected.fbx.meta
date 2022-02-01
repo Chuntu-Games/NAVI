@@ -1,0 +1,1558 @@
+fileFormatVersion: 2
+guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: 3341648523055609868
+    second: M_Living_Room_Fire_Place_Group_1|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 384020625194220883
+    second: M_Living_Room_Fire_Place_Group_1|Box098|Take 001|BaseLayer
+  - first:
+      74: 6938840848575046421
+    second: M_Living_Room_Fire_Place_Group_1|Box099|Take 001|BaseLayer
+  - first:
+      74: 3281166180683069154
+    second: M_Living_Room_Fire_Place_Group_1|Box100|Take 001|BaseLayer
+  - first:
+      74: 5479621671854274010
+    second: M_Living_Room_Fire_Place_Group_1|Box101|Take 001|BaseLayer
+  - first:
+      74: -1083629794047617044
+    second: M_Living_Room_Fire_Place_Group_1|Box104|Take 001|BaseLayer
+  - first:
+      74: -6805543402838152548
+    second: M_Living_Room_Fire_Place_Group_1|Box105|Take 001|BaseLayer
+  - first:
+      74: -8585759072528095553
+    second: M_Living_Room_Fire_Place_Group_1|Box234|Take 001|BaseLayer
+  - first:
+      74: 6972610252446501456
+    second: M_Living_Room_Fire_Place_Group_1|Box235|Take 001|BaseLayer
+  - first:
+      74: -2804501129819152884
+    second: M_Living_Room_Fire_Place_Group_1|Box239|Take 001|BaseLayer
+  - first:
+      74: 2630549353283690339
+    second: M_Living_Room_Fire_Place_Group_1|Door001|Take 001|BaseLayer
+  - first:
+      74: -3154517627392224269
+    second: M_Living_Room_Fire_Place_Group_1|Door004|Take 001|BaseLayer
+  - first:
+      74: -7946590333427813431
+    second: M_Living_Room_Fire_Place_Group_1|Door006|Take 001|BaseLayer
+  - first:
+      74: -5665304588215357620
+    second: M_Living_Room_Fire_Place_Group_1|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 2103639503585601378
+    second: M_Living_Room_Fire_Place_Group_1|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 3350167295426254879
+    second: M_Living_Room_Fire_Place_Group_1|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 9143556620702726122
+    second: M_Living_Room_Fire_Place_Group_1|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -8442175301388739898
+    second: M_Living_Room_Fire_Place_Group_1|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 5929650009081087810
+    second: M_Living_Room_Fire_Place_Group_1|M_Living_Room_Fire_Place_Group_1|Take
+      001|BaseLayer
+  - first:
+      74: 6463366533660597431
+    second: M_Living_Room_Fire_Place_Group_1|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 6717126085707542312
+    second: M_Living_Room_Fire_Place_Group_1|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 6752270635090957466
+    second: M_Living_Room_Fire_Place_Group_1|Model_Assets_Cubards_And_Others|Take
+      001|BaseLayer
+  - first:
+      74: -8568267840886961346
+    second: Box105|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 4233370898011183861
+    second: Box105|Box098|Take 001|BaseLayer
+  - first:
+      74: 8847032543542760910
+    second: Box105|Box099|Take 001|BaseLayer
+  - first:
+      74: -8006780642736954751
+    second: Box105|Box100|Take 001|BaseLayer
+  - first:
+      74: 1068087093604404672
+    second: Box105|Box101|Take 001|BaseLayer
+  - first:
+      74: 3438466014409021021
+    second: Box105|Box104|Take 001|BaseLayer
+  - first:
+      74: -8612198658581579325
+    second: Box105|Box105|Take 001|BaseLayer
+  - first:
+      74: 3133650653771616599
+    second: Box105|Box234|Take 001|BaseLayer
+  - first:
+      74: 3938007270653725759
+    second: Box105|Box235|Take 001|BaseLayer
+  - first:
+      74: -7190193390805267404
+    second: Box105|Box239|Take 001|BaseLayer
+  - first:
+      74: 8540039072441593190
+    second: Box105|Door001|Take 001|BaseLayer
+  - first:
+      74: 5809457134051490053
+    second: Box105|Door004|Take 001|BaseLayer
+  - first:
+      74: -3761061709506893949
+    second: Box105|Door006|Take 001|BaseLayer
+  - first:
+      74: -967730483540792658
+    second: Box105|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 4997639543434263923
+    second: Box105|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -2463806048054895762
+    second: Box105|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 7085779288328388580
+    second: Box105|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 8212426223178795603
+    second: Box105|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -7521194053212240849
+    second: Box105|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 8296853989246909487
+    second: Box105|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -8979971654729194103
+    second: Box105|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 8148490141505534256
+    second: Box105|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -8284304581113297802
+    second: M_Low_Poly_Curtain|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -2929668547689195529
+    second: M_Low_Poly_Curtain|Box098|Take 001|BaseLayer
+  - first:
+      74: -3981810065686726674
+    second: M_Low_Poly_Curtain|Box099|Take 001|BaseLayer
+  - first:
+      74: 7386189576180326399
+    second: M_Low_Poly_Curtain|Box100|Take 001|BaseLayer
+  - first:
+      74: 7881026852232286130
+    second: M_Low_Poly_Curtain|Box101|Take 001|BaseLayer
+  - first:
+      74: 2085190914242388501
+    second: M_Low_Poly_Curtain|Box104|Take 001|BaseLayer
+  - first:
+      74: -5655684695446322218
+    second: M_Low_Poly_Curtain|Box105|Take 001|BaseLayer
+  - first:
+      74: -3071502773068550969
+    second: M_Low_Poly_Curtain|Box234|Take 001|BaseLayer
+  - first:
+      74: -6682558798056375050
+    second: M_Low_Poly_Curtain|Box235|Take 001|BaseLayer
+  - first:
+      74: 5589604163193125255
+    second: M_Low_Poly_Curtain|Box239|Take 001|BaseLayer
+  - first:
+      74: -3941172415776590879
+    second: M_Low_Poly_Curtain|Door001|Take 001|BaseLayer
+  - first:
+      74: 4085306333540406945
+    second: M_Low_Poly_Curtain|Door004|Take 001|BaseLayer
+  - first:
+      74: 8016983446313996459
+    second: M_Low_Poly_Curtain|Door006|Take 001|BaseLayer
+  - first:
+      74: -7490556655812743030
+    second: M_Low_Poly_Curtain|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -3484542207589354058
+    second: M_Low_Poly_Curtain|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 4200839122427214975
+    second: M_Low_Poly_Curtain|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 7877878083136850697
+    second: M_Low_Poly_Curtain|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 6942670205433999778
+    second: M_Low_Poly_Curtain|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 8623220138853801484
+    second: M_Low_Poly_Curtain|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -3218968288154717967
+    second: M_Low_Poly_Curtain|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 7951003771093136183
+    second: M_Low_Poly_Curtain|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -2877005523810950996
+    second: M_Low_Poly_Curtain|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 6887313226250915027
+    second: Box235|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -7354006926555621283
+    second: Box235|Box098|Take 001|BaseLayer
+  - first:
+      74: 1033813393633592448
+    second: Box235|Box099|Take 001|BaseLayer
+  - first:
+      74: -44054740527489757
+    second: Box235|Box100|Take 001|BaseLayer
+  - first:
+      74: 8433065409489204347
+    second: Box235|Box101|Take 001|BaseLayer
+  - first:
+      74: 2233249595307345446
+    second: Box235|Box104|Take 001|BaseLayer
+  - first:
+      74: 82984617571201690
+    second: Box235|Box105|Take 001|BaseLayer
+  - first:
+      74: -8602814364151031642
+    second: Box235|Box234|Take 001|BaseLayer
+  - first:
+      74: 8172064197546608352
+    second: Box235|Box235|Take 001|BaseLayer
+  - first:
+      74: -347143171555697293
+    second: Box235|Box239|Take 001|BaseLayer
+  - first:
+      74: 6968778228760336043
+    second: Box235|Door001|Take 001|BaseLayer
+  - first:
+      74: -822903825518721290
+    second: Box235|Door004|Take 001|BaseLayer
+  - first:
+      74: -6379749088055681101
+    second: Box235|Door006|Take 001|BaseLayer
+  - first:
+      74: -8790894618795448348
+    second: Box235|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 7950886819435194680
+    second: Box235|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -2864554178483797698
+    second: Box235|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -7698141198967145512
+    second: Box235|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 1979214149437687537
+    second: Box235|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 6573300696546742376
+    second: Box235|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 7529746658798599109
+    second: Box235|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 6376097335636212401
+    second: Box235|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -7318578675471962426
+    second: Box235|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 3835813940717088283
+    second: M_Low_Poly_Curtain001|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -4843709009738156804
+    second: M_Low_Poly_Curtain001|Box098|Take 001|BaseLayer
+  - first:
+      74: 1935714890493678249
+    second: M_Low_Poly_Curtain001|Box099|Take 001|BaseLayer
+  - first:
+      74: -859764781282372625
+    second: M_Low_Poly_Curtain001|Box100|Take 001|BaseLayer
+  - first:
+      74: -4304393684539141742
+    second: M_Low_Poly_Curtain001|Box101|Take 001|BaseLayer
+  - first:
+      74: -2410806387255254475
+    second: M_Low_Poly_Curtain001|Box104|Take 001|BaseLayer
+  - first:
+      74: 7266109409735672223
+    second: M_Low_Poly_Curtain001|Box105|Take 001|BaseLayer
+  - first:
+      74: -3504030940667345493
+    second: M_Low_Poly_Curtain001|Box234|Take 001|BaseLayer
+  - first:
+      74: -5050626276582810367
+    second: M_Low_Poly_Curtain001|Box235|Take 001|BaseLayer
+  - first:
+      74: 4128301598346045087
+    second: M_Low_Poly_Curtain001|Box239|Take 001|BaseLayer
+  - first:
+      74: 834030100939356077
+    second: M_Low_Poly_Curtain001|Door001|Take 001|BaseLayer
+  - first:
+      74: 4746154221788942359
+    second: M_Low_Poly_Curtain001|Door004|Take 001|BaseLayer
+  - first:
+      74: -6689870636174051768
+    second: M_Low_Poly_Curtain001|Door006|Take 001|BaseLayer
+  - first:
+      74: 4293124380994437345
+    second: M_Low_Poly_Curtain001|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 1734529243463936276
+    second: M_Low_Poly_Curtain001|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -7282255645616063987
+    second: M_Low_Poly_Curtain001|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -8680965542048081057
+    second: M_Low_Poly_Curtain001|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -6495975179194597190
+    second: M_Low_Poly_Curtain001|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -6620116571848778307
+    second: M_Low_Poly_Curtain001|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -8546420544448150775
+    second: M_Low_Poly_Curtain001|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 5173492541951926351
+    second: M_Low_Poly_Curtain001|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -5014691915135572853
+    second: M_Low_Poly_Curtain001|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -8597847838214183597
+    second: Asset_Model_Rifle|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -8703799477518319616
+    second: Asset_Model_Rifle|Box098|Take 001|BaseLayer
+  - first:
+      74: 1121915542835468280
+    second: Asset_Model_Rifle|Box099|Take 001|BaseLayer
+  - first:
+      74: -3100872394559531094
+    second: Asset_Model_Rifle|Box100|Take 001|BaseLayer
+  - first:
+      74: -718349440926234850
+    second: Asset_Model_Rifle|Box101|Take 001|BaseLayer
+  - first:
+      74: -3802950798006476859
+    second: Asset_Model_Rifle|Box104|Take 001|BaseLayer
+  - first:
+      74: 7295255611845817832
+    second: Asset_Model_Rifle|Box105|Take 001|BaseLayer
+  - first:
+      74: 8304961661818244770
+    second: Asset_Model_Rifle|Box234|Take 001|BaseLayer
+  - first:
+      74: -5036568067666886797
+    second: Asset_Model_Rifle|Box235|Take 001|BaseLayer
+  - first:
+      74: -1991352502246354252
+    second: Asset_Model_Rifle|Box239|Take 001|BaseLayer
+  - first:
+      74: -7591282400481807072
+    second: Asset_Model_Rifle|Door001|Take 001|BaseLayer
+  - first:
+      74: 8279707578193466568
+    second: Asset_Model_Rifle|Door004|Take 001|BaseLayer
+  - first:
+      74: 2371621960164865412
+    second: Asset_Model_Rifle|Door006|Take 001|BaseLayer
+  - first:
+      74: 3433592628385950155
+    second: Asset_Model_Rifle|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -3134414103952440563
+    second: Asset_Model_Rifle|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 5970615209180678890
+    second: Asset_Model_Rifle|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 7176724702286596829
+    second: Asset_Model_Rifle|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -739700207408537667
+    second: Asset_Model_Rifle|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 8075852860367143033
+    second: Asset_Model_Rifle|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 5162851239502079212
+    second: Asset_Model_Rifle|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 1463337350075371001
+    second: Asset_Model_Rifle|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 8304375571259665143
+    second: Asset_Model_Rifle|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 3678239916199951802
+    second: Model_Assets_Cubards_And_Others|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -2631492156730385664
+    second: Model_Assets_Cubards_And_Others|Box098|Take 001|BaseLayer
+  - first:
+      74: -5259013400975633588
+    second: Model_Assets_Cubards_And_Others|Box099|Take 001|BaseLayer
+  - first:
+      74: -3882890892168445100
+    second: Model_Assets_Cubards_And_Others|Box100|Take 001|BaseLayer
+  - first:
+      74: 171432316074553338
+    second: Model_Assets_Cubards_And_Others|Box101|Take 001|BaseLayer
+  - first:
+      74: 2744106387289415681
+    second: Model_Assets_Cubards_And_Others|Box104|Take 001|BaseLayer
+  - first:
+      74: 5828139051934895012
+    second: Model_Assets_Cubards_And_Others|Box105|Take 001|BaseLayer
+  - first:
+      74: -2434605767911470631
+    second: Model_Assets_Cubards_And_Others|Box234|Take 001|BaseLayer
+  - first:
+      74: -3902964686418348353
+    second: Model_Assets_Cubards_And_Others|Box235|Take 001|BaseLayer
+  - first:
+      74: -6628288478192433674
+    second: Model_Assets_Cubards_And_Others|Box239|Take 001|BaseLayer
+  - first:
+      74: -8149646735517338486
+    second: Model_Assets_Cubards_And_Others|Door001|Take 001|BaseLayer
+  - first:
+      74: 6332633562291064722
+    second: Model_Assets_Cubards_And_Others|Door004|Take 001|BaseLayer
+  - first:
+      74: -4443233362532137240
+    second: Model_Assets_Cubards_And_Others|Door006|Take 001|BaseLayer
+  - first:
+      74: -1735607818057531546
+    second: Model_Assets_Cubards_And_Others|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -4522713159126425526
+    second: Model_Assets_Cubards_And_Others|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 7316960055008433989
+    second: Model_Assets_Cubards_And_Others|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -3938328470909587408
+    second: Model_Assets_Cubards_And_Others|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -8582179011563791922
+    second: Model_Assets_Cubards_And_Others|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 1678157778704211073
+    second: Model_Assets_Cubards_And_Others|M_Living_Room_Fire_Place_Group_1|Take
+      001|BaseLayer
+  - first:
+      74: -8670520765048383422
+    second: Model_Assets_Cubards_And_Others|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -6480471073381584435
+    second: Model_Assets_Cubards_And_Others|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -9085396129390998722
+    second: Model_Assets_Cubards_And_Others|Model_Assets_Cubards_And_Others|Take
+      001|BaseLayer
+  - first:
+      74: -3899897123165587285
+    second: Door_Frame008|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 8606419515540054800
+    second: Door_Frame008|Box098|Take 001|BaseLayer
+  - first:
+      74: 5074371102181821298
+    second: Door_Frame008|Box099|Take 001|BaseLayer
+  - first:
+      74: -3722275310122662867
+    second: Door_Frame008|Box100|Take 001|BaseLayer
+  - first:
+      74: -6060851449632962981
+    second: Door_Frame008|Box101|Take 001|BaseLayer
+  - first:
+      74: 7046127409446117964
+    second: Door_Frame008|Box104|Take 001|BaseLayer
+  - first:
+      74: 3789074417321381896
+    second: Door_Frame008|Box105|Take 001|BaseLayer
+  - first:
+      74: 1745060458828521880
+    second: Door_Frame008|Box234|Take 001|BaseLayer
+  - first:
+      74: -8929459955701465889
+    second: Door_Frame008|Box235|Take 001|BaseLayer
+  - first:
+      74: 6129752217724280252
+    second: Door_Frame008|Box239|Take 001|BaseLayer
+  - first:
+      74: -1792116120496971445
+    second: Door_Frame008|Door001|Take 001|BaseLayer
+  - first:
+      74: -5092783224996509599
+    second: Door_Frame008|Door004|Take 001|BaseLayer
+  - first:
+      74: -6243648852770347884
+    second: Door_Frame008|Door006|Take 001|BaseLayer
+  - first:
+      74: -8385535180362053042
+    second: Door_Frame008|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -6523208434102853001
+    second: Door_Frame008|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 1557011777348429964
+    second: Door_Frame008|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 1808603970311768176
+    second: Door_Frame008|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -3532064414933557092
+    second: Door_Frame008|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -1057420898424528661
+    second: Door_Frame008|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 8425255700212689313
+    second: Door_Frame008|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 3769025558168135632
+    second: Door_Frame008|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -8423441819450089019
+    second: Door_Frame008|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -7807259990990778328
+    second: Door006|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 5095973537629053871
+    second: Door006|Box098|Take 001|BaseLayer
+  - first:
+      74: 3924734835578819222
+    second: Door006|Box099|Take 001|BaseLayer
+  - first:
+      74: -7523856073664994965
+    second: Door006|Box100|Take 001|BaseLayer
+  - first:
+      74: -5976209011401496677
+    second: Door006|Box101|Take 001|BaseLayer
+  - first:
+      74: 2552108345067527472
+    second: Door006|Box104|Take 001|BaseLayer
+  - first:
+      74: 4928979434448160887
+    second: Door006|Box105|Take 001|BaseLayer
+  - first:
+      74: 1213223313367112128
+    second: Door006|Box234|Take 001|BaseLayer
+  - first:
+      74: -2084129164087144346
+    second: Door006|Box235|Take 001|BaseLayer
+  - first:
+      74: -2161394817379397114
+    second: Door006|Box239|Take 001|BaseLayer
+  - first:
+      74: -1547371602982975838
+    second: Door006|Door001|Take 001|BaseLayer
+  - first:
+      74: 8745170316839038951
+    second: Door006|Door004|Take 001|BaseLayer
+  - first:
+      74: 1601667662317306321
+    second: Door006|Door006|Take 001|BaseLayer
+  - first:
+      74: -7629624394187901518
+    second: Door006|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -518533240039391940
+    second: Door006|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -6993108301728073347
+    second: Door006|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 6810242550212076288
+    second: Door006|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -3749465649397563714
+    second: Door006|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -7493518217468018591
+    second: Door006|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -7209092512044790331
+    second: Door006|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -4004754942704864265
+    second: Door006|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 4508584308025146130
+    second: Door006|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 4493957684220088565
+    second: Box239|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 8380247106168174388
+    second: Box239|Box098|Take 001|BaseLayer
+  - first:
+      74: -3065140046422365013
+    second: Box239|Box099|Take 001|BaseLayer
+  - first:
+      74: 6055682671085034718
+    second: Box239|Box100|Take 001|BaseLayer
+  - first:
+      74: -7868320647115708551
+    second: Box239|Box101|Take 001|BaseLayer
+  - first:
+      74: -4007942198250134364
+    second: Box239|Box104|Take 001|BaseLayer
+  - first:
+      74: -2185777549414399415
+    second: Box239|Box105|Take 001|BaseLayer
+  - first:
+      74: -4997799879531876960
+    second: Box239|Box234|Take 001|BaseLayer
+  - first:
+      74: -5665063467658084908
+    second: Box239|Box235|Take 001|BaseLayer
+  - first:
+      74: -3368734624460066459
+    second: Box239|Box239|Take 001|BaseLayer
+  - first:
+      74: 2535590518515466466
+    second: Box239|Door001|Take 001|BaseLayer
+  - first:
+      74: -2928001654196343700
+    second: Box239|Door004|Take 001|BaseLayer
+  - first:
+      74: -6904820438215804529
+    second: Box239|Door006|Take 001|BaseLayer
+  - first:
+      74: 5358058809743650081
+    second: Box239|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 3159561080491551085
+    second: Box239|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 95750456298600538
+    second: Box239|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -1353573605480413422
+    second: Box239|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -6085378207346994803
+    second: Box239|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -4136802682398771732
+    second: Box239|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 4735288125660496815
+    second: Box239|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -6493004075436532097
+    second: Box239|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 1614135327164228852
+    second: Box239|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 1449174052079787121
+    second: Box234|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 1535116732346739828
+    second: Box234|Box098|Take 001|BaseLayer
+  - first:
+      74: 3597812252420919218
+    second: Box234|Box099|Take 001|BaseLayer
+  - first:
+      74: 812660299192684974
+    second: Box234|Box100|Take 001|BaseLayer
+  - first:
+      74: 1657641466828094206
+    second: Box234|Box101|Take 001|BaseLayer
+  - first:
+      74: 7983276319997326550
+    second: Box234|Box104|Take 001|BaseLayer
+  - first:
+      74: -5957836546296646357
+    second: Box234|Box105|Take 001|BaseLayer
+  - first:
+      74: 3477316955780604580
+    second: Box234|Box234|Take 001|BaseLayer
+  - first:
+      74: -9109455208516398756
+    second: Box234|Box235|Take 001|BaseLayer
+  - first:
+      74: -946242447272062249
+    second: Box234|Box239|Take 001|BaseLayer
+  - first:
+      74: 2534890766416653566
+    second: Box234|Door001|Take 001|BaseLayer
+  - first:
+      74: 2997268884044708320
+    second: Box234|Door004|Take 001|BaseLayer
+  - first:
+      74: -5884873313659057198
+    second: Box234|Door006|Take 001|BaseLayer
+  - first:
+      74: 6584357449428726480
+    second: Box234|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 5409409299438862
+    second: Box234|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -4261429932850468554
+    second: Box234|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -8462033132797770294
+    second: Box234|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 4524873706820896952
+    second: Box234|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -2466485033514264411
+    second: Box234|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 675568069022791763
+    second: Box234|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -3538404710107868135
+    second: Box234|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 6394884917746225091
+    second: Box234|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -3226779753111008721
+    second: Door_Frame006|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 7284268852099955668
+    second: Door_Frame006|Box098|Take 001|BaseLayer
+  - first:
+      74: -8845713340632481308
+    second: Door_Frame006|Box099|Take 001|BaseLayer
+  - first:
+      74: 2581425507593612750
+    second: Door_Frame006|Box100|Take 001|BaseLayer
+  - first:
+      74: 3415903505325804696
+    second: Door_Frame006|Box101|Take 001|BaseLayer
+  - first:
+      74: 7486175502741963009
+    second: Door_Frame006|Box104|Take 001|BaseLayer
+  - first:
+      74: -3047122324149466353
+    second: Door_Frame006|Box105|Take 001|BaseLayer
+  - first:
+      74: 3887190887871166507
+    second: Door_Frame006|Box234|Take 001|BaseLayer
+  - first:
+      74: -2165549217094839299
+    second: Door_Frame006|Box235|Take 001|BaseLayer
+  - first:
+      74: -169311341129062955
+    second: Door_Frame006|Box239|Take 001|BaseLayer
+  - first:
+      74: 3249326659148112033
+    second: Door_Frame006|Door001|Take 001|BaseLayer
+  - first:
+      74: -3672778800174873400
+    second: Door_Frame006|Door004|Take 001|BaseLayer
+  - first:
+      74: -1009025850540635919
+    second: Door_Frame006|Door006|Take 001|BaseLayer
+  - first:
+      74: 3822958319378027190
+    second: Door_Frame006|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 7632665240289285061
+    second: Door_Frame006|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 8289715388444357914
+    second: Door_Frame006|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -9213443558763030251
+    second: Door_Frame006|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 7608838752367911974
+    second: Door_Frame006|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 4157701741871383824
+    second: Door_Frame006|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -6864618175223431914
+    second: Door_Frame006|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 2024819542513348206
+    second: Door_Frame006|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 896534042178922618
+    second: Door_Frame006|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -9084098113505871912
+    second: Door_Frame005|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -5115760221088094121
+    second: Door_Frame005|Box098|Take 001|BaseLayer
+  - first:
+      74: -5415573223902572111
+    second: Door_Frame005|Box099|Take 001|BaseLayer
+  - first:
+      74: -6349608833831648446
+    second: Door_Frame005|Box100|Take 001|BaseLayer
+  - first:
+      74: -5936077862140275947
+    second: Door_Frame005|Box101|Take 001|BaseLayer
+  - first:
+      74: -6085662509522615319
+    second: Door_Frame005|Box104|Take 001|BaseLayer
+  - first:
+      74: -7217796867574665728
+    second: Door_Frame005|Box105|Take 001|BaseLayer
+  - first:
+      74: 8703272038781696978
+    second: Door_Frame005|Box234|Take 001|BaseLayer
+  - first:
+      74: 3588985187141762772
+    second: Door_Frame005|Box235|Take 001|BaseLayer
+  - first:
+      74: 6166614228609004273
+    second: Door_Frame005|Box239|Take 001|BaseLayer
+  - first:
+      74: 8282912240465708567
+    second: Door_Frame005|Door001|Take 001|BaseLayer
+  - first:
+      74: -2581236153934363450
+    second: Door_Frame005|Door004|Take 001|BaseLayer
+  - first:
+      74: -6946008585701865562
+    second: Door_Frame005|Door006|Take 001|BaseLayer
+  - first:
+      74: -3651850710431470606
+    second: Door_Frame005|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 5895739000967521589
+    second: Door_Frame005|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -5892502473510844829
+    second: Door_Frame005|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 3990777244012262244
+    second: Door_Frame005|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 1583676838201230940
+    second: Door_Frame005|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -784995707282207671
+    second: Door_Frame005|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -769131823567840084
+    second: Door_Frame005|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -1051474029626281628
+    second: Door_Frame005|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -8563561098283770875
+    second: Door_Frame005|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -8095085445982860178
+    second: Door004|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 1178001890525031894
+    second: Door004|Box098|Take 001|BaseLayer
+  - first:
+      74: 8815949127379078826
+    second: Door004|Box099|Take 001|BaseLayer
+  - first:
+      74: -2534092406796447066
+    second: Door004|Box100|Take 001|BaseLayer
+  - first:
+      74: 1388224751231151609
+    second: Door004|Box101|Take 001|BaseLayer
+  - first:
+      74: -7401731347093187915
+    second: Door004|Box104|Take 001|BaseLayer
+  - first:
+      74: 4312434312814760903
+    second: Door004|Box105|Take 001|BaseLayer
+  - first:
+      74: -6076455202242878212
+    second: Door004|Box234|Take 001|BaseLayer
+  - first:
+      74: 4392555069629764919
+    second: Door004|Box235|Take 001|BaseLayer
+  - first:
+      74: -4220660871708787190
+    second: Door004|Box239|Take 001|BaseLayer
+  - first:
+      74: 5740480735652000446
+    second: Door004|Door001|Take 001|BaseLayer
+  - first:
+      74: 1581108222501004847
+    second: Door004|Door004|Take 001|BaseLayer
+  - first:
+      74: 8171801144695481832
+    second: Door004|Door006|Take 001|BaseLayer
+  - first:
+      74: 1681409384942349573
+    second: Door004|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 5637650911270453112
+    second: Door004|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -2398962985346779505
+    second: Door004|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -4573344323802977986
+    second: Door004|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -3857827406022066996
+    second: Door004|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -1121034049438762784
+    second: Door004|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 218453294728436156
+    second: Door004|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 2353049525929176114
+    second: Door004|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -6381522506075501647
+    second: Door004|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -2102569045680217241
+    second: Door_Frame004|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 8878089603738127224
+    second: Door_Frame004|Box098|Take 001|BaseLayer
+  - first:
+      74: 7931030357738553274
+    second: Door_Frame004|Box099|Take 001|BaseLayer
+  - first:
+      74: -857332824885629725
+    second: Door_Frame004|Box100|Take 001|BaseLayer
+  - first:
+      74: 8664049505328426066
+    second: Door_Frame004|Box101|Take 001|BaseLayer
+  - first:
+      74: -5313823245847933222
+    second: Door_Frame004|Box104|Take 001|BaseLayer
+  - first:
+      74: -1699714998502469839
+    second: Door_Frame004|Box105|Take 001|BaseLayer
+  - first:
+      74: -7726355300589495480
+    second: Door_Frame004|Box234|Take 001|BaseLayer
+  - first:
+      74: 6618209628765338631
+    second: Door_Frame004|Box235|Take 001|BaseLayer
+  - first:
+      74: 7582167662312670940
+    second: Door_Frame004|Box239|Take 001|BaseLayer
+  - first:
+      74: 27867326019317314
+    second: Door_Frame004|Door001|Take 001|BaseLayer
+  - first:
+      74: 3485392009011070294
+    second: Door_Frame004|Door004|Take 001|BaseLayer
+  - first:
+      74: 3137306770309364563
+    second: Door_Frame004|Door006|Take 001|BaseLayer
+  - first:
+      74: 30579381788873003
+    second: Door_Frame004|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 4861070400304414174
+    second: Door_Frame004|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 3639741301558759088
+    second: Door_Frame004|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -6078600006544982915
+    second: Door_Frame004|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -7483693653956683458
+    second: Door_Frame004|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 1361074848292779462
+    second: Door_Frame004|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -5224730018162796377
+    second: Door_Frame004|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -7817564189466178969
+    second: Door_Frame004|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -3154186141898153859
+    second: Door_Frame004|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -246804662386306806
+    second: Door_Frame001|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -2282152403322725752
+    second: Door_Frame001|Box098|Take 001|BaseLayer
+  - first:
+      74: 5578656662692194226
+    second: Door_Frame001|Box099|Take 001|BaseLayer
+  - first:
+      74: -2264959054938599976
+    second: Door_Frame001|Box100|Take 001|BaseLayer
+  - first:
+      74: 1487791997259184834
+    second: Door_Frame001|Box101|Take 001|BaseLayer
+  - first:
+      74: 4225550057147351503
+    second: Door_Frame001|Box104|Take 001|BaseLayer
+  - first:
+      74: 4750042733246235713
+    second: Door_Frame001|Box105|Take 001|BaseLayer
+  - first:
+      74: -5715528746650417418
+    second: Door_Frame001|Box234|Take 001|BaseLayer
+  - first:
+      74: -6083761978520031669
+    second: Door_Frame001|Box235|Take 001|BaseLayer
+  - first:
+      74: -9111233015567539333
+    second: Door_Frame001|Box239|Take 001|BaseLayer
+  - first:
+      74: 8822063150168759564
+    second: Door_Frame001|Door001|Take 001|BaseLayer
+  - first:
+      74: 7887331156103089016
+    second: Door_Frame001|Door004|Take 001|BaseLayer
+  - first:
+      74: -8275173305809145049
+    second: Door_Frame001|Door006|Take 001|BaseLayer
+  - first:
+      74: 8852773421307588771
+    second: Door_Frame001|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -707100908277140322
+    second: Door_Frame001|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 4319603464871441699
+    second: Door_Frame001|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 3937766879519692160
+    second: Door_Frame001|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 760055293262658199
+    second: Door_Frame001|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -4913689856938237769
+    second: Door_Frame001|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -1191851969763205448
+    second: Door_Frame001|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 9069835932845386240
+    second: Door_Frame001|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 6718778772908006163
+    second: Door_Frame001|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -8253044437705142754
+    second: Door001|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 3476486309452576232
+    second: Door001|Box098|Take 001|BaseLayer
+  - first:
+      74: 3048474198546830199
+    second: Door001|Box099|Take 001|BaseLayer
+  - first:
+      74: 4696949614072369709
+    second: Door001|Box100|Take 001|BaseLayer
+  - first:
+      74: -977351361438607086
+    second: Door001|Box101|Take 001|BaseLayer
+  - first:
+      74: 1020291381674707604
+    second: Door001|Box104|Take 001|BaseLayer
+  - first:
+      74: -4946662169816616491
+    second: Door001|Box105|Take 001|BaseLayer
+  - first:
+      74: -5282726024175019431
+    second: Door001|Box234|Take 001|BaseLayer
+  - first:
+      74: -6704140835962472273
+    second: Door001|Box235|Take 001|BaseLayer
+  - first:
+      74: 8517662838812025911
+    second: Door001|Box239|Take 001|BaseLayer
+  - first:
+      74: -2834826661624380056
+    second: Door001|Door001|Take 001|BaseLayer
+  - first:
+      74: -4545483129851653557
+    second: Door001|Door004|Take 001|BaseLayer
+  - first:
+      74: -7845944574918611607
+    second: Door001|Door006|Take 001|BaseLayer
+  - first:
+      74: 2998500741998900694
+    second: Door001|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 3611582753666143126
+    second: Door001|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -428914504450414641
+    second: Door001|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 5486438150485004343
+    second: Door001|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 1400734635850006254
+    second: Door001|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 3164451097038772960
+    second: Door001|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -3950079068774684577
+    second: Door001|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -1172013969951708209
+    second: Door001|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -2838997608241140467
+    second: Door001|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 8755418406756980452
+    second: Box104|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -5309107344169032176
+    second: Box104|Box098|Take 001|BaseLayer
+  - first:
+      74: -8811966871231310272
+    second: Box104|Box099|Take 001|BaseLayer
+  - first:
+      74: 2774973368296356527
+    second: Box104|Box100|Take 001|BaseLayer
+  - first:
+      74: 6780923768622473184
+    second: Box104|Box101|Take 001|BaseLayer
+  - first:
+      74: -4143471646016307627
+    second: Box104|Box104|Take 001|BaseLayer
+  - first:
+      74: 8468378275986015436
+    second: Box104|Box105|Take 001|BaseLayer
+  - first:
+      74: 5539398865505279159
+    second: Box104|Box234|Take 001|BaseLayer
+  - first:
+      74: -6619251916312100079
+    second: Box104|Box235|Take 001|BaseLayer
+  - first:
+      74: -3635785503818975934
+    second: Box104|Box239|Take 001|BaseLayer
+  - first:
+      74: -6623387895572529441
+    second: Box104|Door001|Take 001|BaseLayer
+  - first:
+      74: 4199944672123167879
+    second: Box104|Door004|Take 001|BaseLayer
+  - first:
+      74: 6340985171385115817
+    second: Box104|Door006|Take 001|BaseLayer
+  - first:
+      74: -5126873805314196095
+    second: Box104|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -3685966737317440006
+    second: Box104|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -3196873671471017132
+    second: Box104|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -5442112658866108391
+    second: Box104|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -6445364433377265779
+    second: Box104|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -3553671319892765914
+    second: Box104|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -1926926291434556770
+    second: Box104|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: -1157527077933625557
+    second: Box104|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 4291106648150048196
+    second: Box104|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 3561469455469068828
+    second: Box101|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: 135549173344427424
+    second: Box101|Box098|Take 001|BaseLayer
+  - first:
+      74: -8081863300391158169
+    second: Box101|Box099|Take 001|BaseLayer
+  - first:
+      74: -3558382253996028927
+    second: Box101|Box100|Take 001|BaseLayer
+  - first:
+      74: -5395247529495801027
+    second: Box101|Box101|Take 001|BaseLayer
+  - first:
+      74: 3113848953006589777
+    second: Box101|Box104|Take 001|BaseLayer
+  - first:
+      74: -3990841930969867761
+    second: Box101|Box105|Take 001|BaseLayer
+  - first:
+      74: -4211108814076962050
+    second: Box101|Box234|Take 001|BaseLayer
+  - first:
+      74: 7625607077262021530
+    second: Box101|Box235|Take 001|BaseLayer
+  - first:
+      74: -4260939492559474435
+    second: Box101|Box239|Take 001|BaseLayer
+  - first:
+      74: 6020451029577462451
+    second: Box101|Door001|Take 001|BaseLayer
+  - first:
+      74: 8654841425254030381
+    second: Box101|Door004|Take 001|BaseLayer
+  - first:
+      74: -8211177710509020780
+    second: Box101|Door006|Take 001|BaseLayer
+  - first:
+      74: 3873580151067466992
+    second: Box101|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: 7616632474775091308
+    second: Box101|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 1677953740806720174
+    second: Box101|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 79701349300005347
+    second: Box101|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 3225468437493189758
+    second: Box101|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: 1587428188976597751
+    second: Box101|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -406047343054481517
+    second: Box101|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 4759216256131122283
+    second: Box101|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 2267436012843844975
+    second: Box101|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: 6514120408878309953
+    second: Box100|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -6179905304836294886
+    second: Box100|Box098|Take 001|BaseLayer
+  - first:
+      74: 3158251983664829003
+    second: Box100|Box099|Take 001|BaseLayer
+  - first:
+      74: -2024289168572987104
+    second: Box100|Box100|Take 001|BaseLayer
+  - first:
+      74: 8476753879724619592
+    second: Box100|Box101|Take 001|BaseLayer
+  - first:
+      74: 2795855545758750127
+    second: Box100|Box104|Take 001|BaseLayer
+  - first:
+      74: 4522657340115239964
+    second: Box100|Box105|Take 001|BaseLayer
+  - first:
+      74: -2956511556818338787
+    second: Box100|Box234|Take 001|BaseLayer
+  - first:
+      74: -1414569665770875105
+    second: Box100|Box235|Take 001|BaseLayer
+  - first:
+      74: 4132775013621246197
+    second: Box100|Box239|Take 001|BaseLayer
+  - first:
+      74: 7303776580519987938
+    second: Box100|Door001|Take 001|BaseLayer
+  - first:
+      74: 1108802716027666488
+    second: Box100|Door004|Take 001|BaseLayer
+  - first:
+      74: 6817229030369867059
+    second: Box100|Door006|Take 001|BaseLayer
+  - first:
+      74: -351768179558662505
+    second: Box100|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -2045580216757084269
+    second: Box100|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -1693886093991799239
+    second: Box100|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -5848537559400235411
+    second: Box100|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -1846254408672513024
+    second: Box100|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -884247563127685783
+    second: Box100|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 1645773923710381002
+    second: Box100|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 52861492382872637
+    second: Box100|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: -8689653858139234680
+    second: Box100|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -5663502601722144563
+    second: Box099|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -6317743675706221961
+    second: Box099|Box098|Take 001|BaseLayer
+  - first:
+      74: -7222407576671167406
+    second: Box099|Box099|Take 001|BaseLayer
+  - first:
+      74: -4357360133425285140
+    second: Box099|Box100|Take 001|BaseLayer
+  - first:
+      74: -8411931391630223154
+    second: Box099|Box101|Take 001|BaseLayer
+  - first:
+      74: 1296754682443335823
+    second: Box099|Box104|Take 001|BaseLayer
+  - first:
+      74: -2630634590787875182
+    second: Box099|Box105|Take 001|BaseLayer
+  - first:
+      74: -2810176846896769943
+    second: Box099|Box234|Take 001|BaseLayer
+  - first:
+      74: -3939521627462509262
+    second: Box099|Box235|Take 001|BaseLayer
+  - first:
+      74: 6778004111430762681
+    second: Box099|Box239|Take 001|BaseLayer
+  - first:
+      74: 425558826805663853
+    second: Box099|Door001|Take 001|BaseLayer
+  - first:
+      74: 2653668227120672534
+    second: Box099|Door004|Take 001|BaseLayer
+  - first:
+      74: 7979215849604190207
+    second: Box099|Door006|Take 001|BaseLayer
+  - first:
+      74: 330855446951088351
+    second: Box099|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -8591925296974713892
+    second: Box099|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: -3769232314354495224
+    second: Box099|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: -7535201595001455200
+    second: Box099|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: -1605662301294518739
+    second: Box099|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -6983280989770656802
+    second: Box099|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: 6044900510444723914
+    second: Box099|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 1816319959398252631
+    second: Box099|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 716690648129887952
+    second: Box099|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  - first:
+      74: -5572109663057540921
+    second: Box098|Asset_Model_Rifle|Take 001|BaseLayer
+  - first:
+      74: -8913043621534917614
+    second: Box098|Box098|Take 001|BaseLayer
+  - first:
+      74: -1914920646001307125
+    second: Box098|Box099|Take 001|BaseLayer
+  - first:
+      74: 3428873330734749977
+    second: Box098|Box100|Take 001|BaseLayer
+  - first:
+      74: -3598555654170164342
+    second: Box098|Box101|Take 001|BaseLayer
+  - first:
+      74: 3460271511548020367
+    second: Box098|Box104|Take 001|BaseLayer
+  - first:
+      74: -2688112082471021005
+    second: Box098|Box105|Take 001|BaseLayer
+  - first:
+      74: 1163782898095756314
+    second: Box098|Box234|Take 001|BaseLayer
+  - first:
+      74: -250981852519700870
+    second: Box098|Box235|Take 001|BaseLayer
+  - first:
+      74: 7052532652945214974
+    second: Box098|Box239|Take 001|BaseLayer
+  - first:
+      74: -5434270984446678786
+    second: Box098|Door001|Take 001|BaseLayer
+  - first:
+      74: -3759417153684043880
+    second: Box098|Door004|Take 001|BaseLayer
+  - first:
+      74: -802900124160335016
+    second: Box098|Door006|Take 001|BaseLayer
+  - first:
+      74: 9180457933547008180
+    second: Box098|Door_Frame001|Take 001|BaseLayer
+  - first:
+      74: -1792436614447414
+    second: Box098|Door_Frame004|Take 001|BaseLayer
+  - first:
+      74: 4025017437142329132
+    second: Box098|Door_Frame005|Take 001|BaseLayer
+  - first:
+      74: 4356563173318393169
+    second: Box098|Door_Frame006|Take 001|BaseLayer
+  - first:
+      74: 2512846390334451535
+    second: Box098|Door_Frame008|Take 001|BaseLayer
+  - first:
+      74: -3008422134056435831
+    second: Box098|M_Living_Room_Fire_Place_Group_1|Take 001|BaseLayer
+  - first:
+      74: -8437444190587073215
+    second: Box098|M_Low_Poly_Curtain001|Take 001|BaseLayer
+  - first:
+      74: 7469243769287887149
+    second: Box098|M_Low_Poly_Curtain|Take 001|BaseLayer
+  - first:
+      74: 8100476249526560058
+    second: Box098|Model_Assets_Cubards_And_Others|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

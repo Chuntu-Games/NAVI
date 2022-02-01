@@ -381,6 +381,7 @@
 "Assets/DreamForestTree/PostProcessing/Runtime/Utils/MaterialFactory.cs"
 "Assets/DreamForestTree/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/DreamForestTree/Script/FreeCam.cs"
+"Assets/Free HDR Skyboxes Pack/Example Scenes/Script/RotateCamera.cs"
 "Assets/Props/flashlight/FlashLightMech.cs"
 "Assets/SampleSceneAssets/Scripts/LookWithMouse.cs"
 "Assets/SampleSceneAssets/Scripts/PlayerMovement.cs"
