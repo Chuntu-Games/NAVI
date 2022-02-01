@@ -50,7 +50,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   hdriSky:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 8900000, guid: c01fc2bc2ee35bb40bc54ed635cd5d4b, type: 3}
   enableDistortion:
     m_OverrideState: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
     m_Value: 50
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 400
+    m_Value: 50
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
