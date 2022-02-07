@@ -389,6 +389,7 @@
 "Assets/Scripts/Cutscene.cs"
 "Assets/Scripts/OpenDoor.cs"
 "Assets/Scripts/SceneSwitch.cs"
+"Assets/Scripts/ZombieController.cs"
 -langversion:8.0
 
 /deterministic
