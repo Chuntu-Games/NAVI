@@ -387,6 +387,7 @@
 "Assets/SampleSceneAssets/Scripts/PlayerMovement.cs"
 "Assets/SampleSceneAssets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/Cutscene.cs"
+"Assets/Scripts/JotunnWalk.cs"
 "Assets/Scripts/OpenDoor.cs"
 "Assets/Scripts/SceneSwitch.cs"
 "Assets/Scripts/ZombieController.cs"
