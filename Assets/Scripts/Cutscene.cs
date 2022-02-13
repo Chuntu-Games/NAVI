@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Cutscene : MonoBehaviour
 {
@@ -30,6 +31,9 @@ public class Cutscene : MonoBehaviour
         yield return new WaitForSeconds(15);
         Cam3.SetActive(true);
         Cam2.SetActive(false);
+        yield return new WaitForSeconds(20);
+        SceneManager.LoadScene(1);
+
     }
 
     // Update is called once per frame
