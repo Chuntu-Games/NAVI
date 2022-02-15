@@ -388,6 +388,7 @@
 "Assets/SampleSceneAssets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/Cutscene.cs"
 "Assets/Scripts/DoorObject.cs"
+"Assets/Scripts/EarsObject.cs"
 "Assets/Scripts/InventoryItem.cs"
 "Assets/Scripts/InventoryItemData.cs"
 "Assets/Scripts/InventorySystem.cs"
