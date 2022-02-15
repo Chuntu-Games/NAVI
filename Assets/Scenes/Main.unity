@@ -1966,10 +1966,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1389380167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9295e4e96cea5634da525aea34fcaf17, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a61eedad58d7df4f92f0514875f3d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 3
+  sceneToGo: 2
 --- !u!65 &1389380170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2425,10 +2425,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1546280817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9295e4e96cea5634da525aea34fcaf17, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a61eedad58d7df4f92f0514875f3d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 2
+  sceneToGo: 4
 --- !u!65 &1546280820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4012,10 +4012,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2111816025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9295e4e96cea5634da525aea34fcaf17, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a61eedad58d7df4f92f0514875f3d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 4
+  sceneToGo: 3
 --- !u!65 &2111816028
 BoxCollider:
   m_ObjectHideFlags: 0
