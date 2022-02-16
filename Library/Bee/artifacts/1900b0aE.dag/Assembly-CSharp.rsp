@@ -395,6 +395,7 @@
 "Assets/Scripts/ItemObject.cs"
 "Assets/Scripts/JotunnWalk.cs"
 "Assets/Scripts/OpenDoor.cs"
+"Assets/Scripts/OpenDoor1.cs"
 "Assets/Scripts/SceneSwitch.cs"
 "Assets/Scripts/ZombieController.cs"
 -langversion:8.0

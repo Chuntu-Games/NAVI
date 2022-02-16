@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InvMotherFlesh
   displayName: MotherFlesh
-  icon: {fileID: 21300000, guid: 24eebe298cac98241bdb3f2f33d288e3, type: 3}
+  icon: {fileID: 21300000, guid: 7c241c25ef25eec4880a9ed207563845, type: 3}
   prefab: {fileID: 6869711792559319780, guid: 6d56354ad400ac843af0791d8e90a68a, type: 3}

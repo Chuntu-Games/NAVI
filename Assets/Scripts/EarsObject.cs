@@ -10,6 +10,8 @@ public class EarsObject : MonoBehaviour
     public GameObject ears;
     public GameObject audio;
     public GameObject light;
+    public GameObject portal;
+    public GameObject velas;
 
     public void ShowEars()
     {
@@ -27,6 +29,8 @@ public class EarsObject : MonoBehaviour
         ears.SetActive(false);
         audio.SetActive(true);
         light.SetActive(false);
+        portal.SetActive(true);
+        velas.SetActive(false);
     }
 
     private bool MeetsRequirements()
