@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bbe4abd8f545048baa6149eb40ea4e, type: 3}
+  m_Name: InvPoison
+  m_EditorClassIdentifier: 
+  id: InvPoison
+  displayName: Poison
+  icon: {fileID: 21300000, guid: 24eebe298cac98241bdb3f2f33d288e3, type: 3}
+  prefab: {fileID: 4656497132663116233, guid: c6dcd6e305155ed4bb64e3ae2f4cf780, type: 3}
