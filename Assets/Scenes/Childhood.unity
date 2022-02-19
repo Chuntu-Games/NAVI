@@ -8207,7 +8207,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4529f919fc48783439840bb31a5058ea, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8b51c14b1093d2d40849262456ef519f, type: 2}
+      objectReference: {fileID: 2100000, guid: b57d252dbe1f22549a761657a0ec2ee3, type: 2}
     - target: {fileID: 919132149155446097, guid: 4529f919fc48783439840bb31a5058ea, type: 3}
       propertyPath: m_Name
       value: wooden_bowl
