@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1279149, g: 0.15848112, b: 0.20980501, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2577,10 +2577,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
+--- !u!1 &334329743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
+  m_PrefabInstance: {fileID: 334329742}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &335869282 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9125191446227300833, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -2829,13 +2834,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346533423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf6e0e722f6c2e244aa87c7dad340d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   flashlight: {fileID: 270269929}
-  weapon: {fileID: 0}
+  weapon: {fileID: 334329743}
+--- !u!114 &346533425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346533423}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16772dbd431cae3439e9dcda5c47f503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOn: 0
+  lightSource: {fileID: 1367611649}
+  clickSound: {fileID: 799196349}
+  failSafe: 0
 --- !u!136 &346533427
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6613,7 +6634,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   referenceItem: {fileID: 11400000, guid: 16adbd72ac454db46912239a18c2bc86, type: 2}
   pickUp: 0
+  weapon: 0
   pickObject: {fileID: 0}
+  flashlight: {fileID: 0}
+  weaponObj: {fileID: 0}
 --- !u!65 &989907950
 BoxCollider:
   m_ObjectHideFlags: 0

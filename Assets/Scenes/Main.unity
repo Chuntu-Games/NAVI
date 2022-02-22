@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1.0232878, g: 1.267621, b: 1.6780224, a: 1}
+  m_IndirectSpecularColor: {r: 1.0233192, g: 1.267849, b: 1.6784401, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1160,7 +1160,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   referenceItem: {fileID: 11400000, guid: c312c7cfb8da4b74db8bb780ee45af53, type: 2}
   pickUp: 0
+  weapon: 0
   pickObject: {fileID: 0}
+  flashlight: {fileID: 0}
+  weaponObj: {fileID: 0}
 --- !u!65 &955939090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2095,7 +2098,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   referenceItem: {fileID: 11400000, guid: d6423dade52047846a9dfba2d843ed25, type: 2}
   pickUp: 1
+  weapon: 0
   pickObject: {fileID: 990371163}
+  flashlight: {fileID: 990371163}
+  weaponObj: {fileID: 145576489}
 --- !u!65 &1395161681
 BoxCollider:
   m_ObjectHideFlags: 0

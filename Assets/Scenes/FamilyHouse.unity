@@ -1231,7 +1231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 738646681744756157, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: speed
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 738646681744756157, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: gravity
@@ -4199,6 +4199,8 @@ MonoBehaviour:
   pickUp: 1
   weapon: 1
   pickObject: {fileID: 2081798380}
+  flashlight: {fileID: 619951514}
+  weaponObj: {fileID: 2081798380}
 --- !u!82 &1147250140
 AudioSource:
   m_ObjectHideFlags: 0
