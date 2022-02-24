@@ -11,6 +11,7 @@ public class ItemObject : MonoBehaviour
         InventorySystem.Instance.Add(referenceItem);
         Destroy(gameObject);
         InventorySystem.Instance.DrawInventory();
+        InventorySystem.Instance.InventoryIds.Add(referenceItem.id);
     }
 
     private void OnMouseDown()
