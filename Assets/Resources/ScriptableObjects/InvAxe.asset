@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bbe4abd8f545048baa6149eb40ea4e, type: 3}
+  m_Name: InvAxe
+  m_EditorClassIdentifier: 
+  id: InvAxe
+  displayName: Axe
+  icon: {fileID: 21300000, guid: efaecd3efb7825241bbc5e7687528807, type: 3}
+  prefab: {fileID: 934508721571654503, guid: 67c1c7e0825cfe34a92c898fcea03a6b, type: 3}

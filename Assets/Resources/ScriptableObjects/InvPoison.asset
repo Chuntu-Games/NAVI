@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InvPoison
   displayName: Poison
-  icon: {fileID: 21300000, guid: 24eebe298cac98241bdb3f2f33d288e3, type: 3}
+  icon: {fileID: 21300000, guid: cd4a0d1c534f0544cb5074dd3452ce45, type: 3}
   prefab: {fileID: 4656497132663116233, guid: c6dcd6e305155ed4bb64e3ae2f4cf780, type: 3}

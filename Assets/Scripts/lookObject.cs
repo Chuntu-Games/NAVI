@@ -9,11 +9,13 @@ public class lookObject : MonoBehaviour
     public List<ItemRequirement> requirements;
     public GameObject cameraOff;
     public GameObject cameraOn;
+    public GameObject ui;
 
     public void EndScene()
     {
         cameraOn.SetActive(true);
         cameraOff.SetActive(false);
+        ui.SetActive(false);
     }
 
     private bool MeetsRequirements()

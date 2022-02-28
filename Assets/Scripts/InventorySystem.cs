@@ -21,6 +21,7 @@ public class InventorySystem : MonoBehaviour
         Inventory = new List<InventoryItem>();
         m_itemDictionary = new Dictionary<InventoryItemData, InventoryItem>();
 
+        InventoryIds.Add("InvPoison");
         InventoryIds.Add("InvKey");
         LoadInventory(InventoryIds);
 

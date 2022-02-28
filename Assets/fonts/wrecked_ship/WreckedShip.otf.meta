@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4a05677c94fef2e4d86eaed9639bc1b5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wrecked Ship
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 633283eba2923794bba331780ac44959, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

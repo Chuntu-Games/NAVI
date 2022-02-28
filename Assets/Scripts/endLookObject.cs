@@ -11,6 +11,7 @@ public class endLookObject : MonoBehaviour
     public GameObject cameraOn;
     public GameObject fire;
     public GameObject portals;
+    public GameObject ui;
 
     public void EndScene()
     {
@@ -18,6 +19,7 @@ public class endLookObject : MonoBehaviour
         cameraOff.SetActive(false);
         fire.SetActive(false);
         portals.SetActive(true);
+        ui.SetActive(true);
     }
 
     private bool MeetsRequirements()
