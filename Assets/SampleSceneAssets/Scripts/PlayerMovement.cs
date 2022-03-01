@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
-    public AudioSource audioSrc;
 
     Vector3 velocity;
     bool isGrounded;
@@ -73,14 +72,6 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.y = -2f;
         }
-
-        if (x > 0.0f || z > 0.0f)
-        {
-            if (!audioSrc.isPlaying)
-                audioSrc.Play();
-        }
-        else
-            audioSrc.Play();
 
         Vector3 move = transform.right * x + transform.forward * z;
 

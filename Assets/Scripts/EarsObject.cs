@@ -8,8 +8,7 @@ public class EarsObject : MonoBehaviour
 
     public List<ItemRequirement> requirements;
     public GameObject ears;
-    public GameObject audio1;
-    public GameObject audio2;
+    public GameObject audio;
     public GameObject light;
     public GameObject portal;
     public GameObject velas;
@@ -28,8 +27,7 @@ public class EarsObject : MonoBehaviour
     public void EndScene()
     {
         ears.SetActive(false);
-        audio1.SetActive(true);
-        audio2.SetActive(true);
+        audio.SetActive(true);
         light.SetActive(false);
         portal.SetActive(true);
         velas.SetActive(false);
