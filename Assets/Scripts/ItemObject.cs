@@ -11,18 +11,77 @@ public class ItemObject : MonoBehaviour
     public GameObject flashlight;
     public GameObject weaponObj;
 
+    void Start()
+    {
+        string pickId = referenceItem.id;
+
+        switch (pickId)
+        {
+        case "InvLinterna":
+            if(ScenesState.invisibleObjects[0]){
+                Destroy(gameObject);
+            }
+            break;
+        case "InvKeyFamily":
+            if(ScenesState.invisibleObjects[1]){
+                Destroy(gameObject);
+            }
+            break;
+        case "InvWC":
+            if(ScenesState.invisibleObjects[2]){
+                Destroy(gameObject);
+            }
+            break;
+        case "InvHand":
+            if(ScenesState.invisibleObjects[3]){
+                Destroy(gameObject);
+            }
+            break;
+        case "InvAxe":
+            if(ScenesState.invisibleObjects[4]){
+                Destroy(gameObject);
+            }
+            break;
+        default:
+            //Debug.Log("Ha ido mal");
+            break;
+        } //[linterna, keyfamily, escopeta, mano, hacha, audio]
+    }
+
     public void OnHandlePickupItem()
     {
         InventorySystem.Instance.Add(referenceItem);
         Destroy(gameObject);
         InventorySystem.Instance.DrawInventory();
-        InventorySystem.Instance.InventoryIds.Add(referenceItem.id);
+        //InventorySystem.Instance.InventoryIds.Add(referenceItem.id);
+
+        string pickId = referenceItem.id;
+
+        ScenesState.inventorylist.Add(pickId);
+        switch (pickId)
+        {
+        case "InvKeyFamily":
+            ScenesState.invisibleObjects[1] = true;
+            break;
+        case "InvHand":
+            ScenesState.invisibleObjects[3] = true;
+            break;
+        case "InvAxe":
+            ScenesState.invisibleObjects[4] = true;
+        break;
+        default:
+            //Debug.Log("Ha ido mal");
+            break;
+        } //[linterna, keyfamily, escopeta, mano, hacha, audio]
+
     }
 
     private void OnMouseDown()
     {
         if (pickUp && !weapon)
         {
+            ScenesState.invisibleObjects[0] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
+            
             pickObject.SetActive(true);
             Destroy(gameObject);
             EquippedObjects.flashlightEquipped = true;
@@ -35,6 +94,9 @@ public class ItemObject : MonoBehaviour
         }
         else if (pickUp && weapon)
         {
+            ScenesState.invisibleObjects[2] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
+
+
             pickObject.SetActive(true);
             Destroy(gameObject);
             EquippedObjects.weaponEquipped = true;
