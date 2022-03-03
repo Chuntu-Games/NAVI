@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1279149, g: 0.15848112, b: 0.20980501, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2758,6 +2758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   system: {fileID: 1481699312}
+  clip: {fileID: 8300000, guid: 9ebcf9eef44986743a6d2f9032869470, type: 3}
 --- !u!136 &346533427
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4588,7 +4589,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Inventory: []
-  InventoryIds: []
   ItemContent: {fileID: 1137306809}
   InventoryItem: {fileID: 2782966173865897507, guid: 12bc0071672292940a73c7bf00694eec, type: 3}
 --- !u!4 &793746006
@@ -7434,6 +7434,8 @@ MonoBehaviour:
   requirements:
   - itemData: {fileID: 11400000, guid: 16adbd72ac454db46912239a18c2bc86, type: 2}
     amount: 1
+  audioSource: {fileID: 1151030642}
+  clip: {fileID: 8300000, guid: f3b790ddb1345be449da594d3d29e9ba, type: 3}
 --- !u!95 &1151030640
 Animator:
   serializedVersion: 3
@@ -7487,9 +7489,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -7497,10 +7499,19 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.02
       value: 1
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5759882
+      value: 0.291229
+      inSlope: -1.0204083
+      outSlope: -1.0204083
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -7508,12 +7519,12 @@ AudioSource:
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -1.0204082
+      outSlope: -1.0204082
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -7522,7 +7533,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -10481,7 +10492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a61eedad58d7df4f92f0514875f3d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 1
+  sceneToGo: 2
 --- !u!65 &1571136369
 BoxCollider:
   m_ObjectHideFlags: 0

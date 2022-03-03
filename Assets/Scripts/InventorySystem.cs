@@ -8,7 +8,7 @@ public class InventorySystem : MonoBehaviour
 {
     public static InventorySystem Instance;
     public List<InventoryItem> Inventory;
-    public List<string> InventoryIds;
+    //public List<string> InventoryIds;
     private Dictionary<InventoryItemData, InventoryItem> m_itemDictionary;
 
     public Transform ItemContent;
@@ -21,9 +21,10 @@ public class InventorySystem : MonoBehaviour
         Inventory = new List<InventoryItem>();
         m_itemDictionary = new Dictionary<InventoryItemData, InventoryItem>();
 
-        InventoryIds.Add("InvPoison");
-        InventoryIds.Add("InvKey");
-        LoadInventory(InventoryIds);
+        //InventoryIds.Add("InvPoison");
+        //InventoryIds.Add("InvKey");
+        //LoadInventory(InventoryIds);
+        LoadInventory();
 
         DrawInventory();
     }
@@ -39,7 +40,7 @@ public class InventorySystem : MonoBehaviour
 
     public void Add(InventoryItemData referenceData)
     {
-        if(m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
+        if (m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
         {
             value.AddToStack();
         }
@@ -54,14 +55,16 @@ public class InventorySystem : MonoBehaviour
 
     public void Remove(InventoryItemData referenceData)
     {
-        if(m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
+        if (m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
         {
             value.RemoveFromStack();
 
             if (value.stackSize == 0)
             {
                 Inventory.Remove(value);
-                InventoryIds.Remove(referenceData.id);
+                //InventoryIds.Remove(referenceData.id);
+
+                ScenesState.inventorylist.Remove(referenceData.id);
                 m_itemDictionary.Remove(referenceData);
             }
         }
@@ -69,28 +72,31 @@ public class InventorySystem : MonoBehaviour
 
     public void DrawInventory()
     {
-        foreach(Transform t in ItemContent)
+        foreach (Transform t in ItemContent)
         {
             Destroy(t.gameObject);
         }
 
-        foreach(InventoryItem item in InventorySystem.Instance.Inventory)
+        foreach (InventoryItem item in InventorySystem.Instance.Inventory)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
             var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
-        
+
             itemIcon.sprite = item.data.icon;
         }
     }
 
-    public void LoadInventory(List<string> SavedIds)
+    public void LoadInventory()
     {
 
-        foreach( var x in SavedIds) {
-            Debug.Log(x);
-        }
+        // foreach( var x in SavedIds) {
+        //     Debug.Log(x);
+        // }
 
-        foreach(var id in SavedIds)
+        List<string> SavedIds = new List<string>();
+        SavedIds = ScenesState.inventorylist;
+
+        foreach (var id in SavedIds)
         {
             InventoryItemData referenceItem = Resources.Load<InventoryItemData>("ScriptableObjects/" + id);
             Add(referenceItem);

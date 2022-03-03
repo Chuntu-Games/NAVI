@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +6,8 @@ public class OpenDoor : MonoBehaviour
 {
     private Animator _animator;
     public List<ItemRequirement> requirements;
+    public AudioSource audioSource;
+    public AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class OpenDoor : MonoBehaviour
             InventorySystem.Instance.DrawInventory();
 
             _animator.SetBool("open", true);
+            audioSource.PlayOneShot(clip, 0.25f);
         }
     }
 

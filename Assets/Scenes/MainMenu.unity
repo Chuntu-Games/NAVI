@@ -508,6 +508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2890709793926183858, guid: 3337658caa738384585bf536b00e2236, type: 3}
+      propertyPath: PlayScene
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3337658caa738384585bf536b00e2236, type: 3}
 --- !u!1001 &600668443

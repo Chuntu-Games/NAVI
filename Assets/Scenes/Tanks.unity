@@ -1365,6 +1365,7 @@ MonoBehaviour:
   ghost: {fileID: 238409813}
   audioScream: {fileID: 238409816}
   audioExplosion: {fileID: 238409821}
+  volume: {fileID: 1904050174}
 --- !u!82 &238409821
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2275,7 +2276,8 @@ MonoBehaviour:
   cameraOn: {fileID: 2094189332}
   fire: {fileID: 1150902776}
   portals: {fileID: 488183423}
-  ui: {fileID: 0}
+  ui: {fileID: 1421716380}
+  tanksScene: 1
 --- !u!65 &470179298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4859,7 +4861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a61eedad58d7df4f92f0514875f3d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 1
+  sceneToGo: 2
 --- !u!65 &1045826698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5945,7 +5947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a61eedad58d7df4f92f0514875f3d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToGo: 1
+  sceneToGo: 2
 --- !u!65 &1269173862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6173,7 +6175,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Inventory: []
-  InventoryIds: []
   ItemContent: {fileID: 1837261309}
   InventoryItem: {fileID: 2782966173865897507, guid: 12bc0071672292940a73c7bf00694eec, type: 3}
 --- !u!4 &1308509528
@@ -6915,6 +6916,11 @@ Transform:
   m_Father: {fileID: 2062753777}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1421716380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4642921645768871730, guid: 8a9c5b3728792f643baf6ab1871c54b8, type: 3}
+  m_PrefabInstance: {fileID: 1837261308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1442931328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1379025426976353721, guid: 2df46fa39ed58ea40a0b7f4cddcd3d08, type: 3}
@@ -14084,19 +14090,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1813158572, guid: 32678d420561dd84d841ba5ac87e3e89, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.6258945e+25
+      value: 1.8512007e+28
       objectReference: {fileID: 0}
     - target: {fileID: 1813158572, guid: 32678d420561dd84d841ba5ac87e3e89, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 2.611069e+20
+      value: 4.543584e+30
       objectReference: {fileID: 0}
     - target: {fileID: 1813158572, guid: 32678d420561dd84d841ba5ac87e3e89, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.5274592e+28
+      value: 893.7031
       objectReference: {fileID: 0}
     - target: {fileID: 1813158572, guid: 32678d420561dd84d841ba5ac87e3e89, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 7.036672e+22
+      value: 1.8058449e+28
       objectReference: {fileID: 0}
     - target: {fileID: 3081245992118020736, guid: 32678d420561dd84d841ba5ac87e3e89, type: 3}
       propertyPath: m_Name
@@ -14709,7 +14715,7 @@ MonoBehaviour:
   requirements: []
   cameraOff: {fileID: 2094189332}
   cameraOn: {fileID: 2032130480}
-  ui: {fileID: 0}
+  ui: {fileID: 1421716380}
 --- !u!65 &2018759522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15502,6 +15508,7 @@ MonoBehaviour:
   player: {fileID: 2094189332}
   clip: {fileID: 8300000, guid: 9ebcf9eef44986743a6d2f9032869470, type: 3}
   isPlaying: 0
+  volume: {fileID: 1904050174}
 --- !u!65 &2094189337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15541,6 +15548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   system: {fileID: 1315207148}
+  clip: {fileID: 8300000, guid: 9ebcf9eef44986743a6d2f9032869470, type: 3}
 --- !u!1001 &2099467296
 PrefabInstance:
   m_ObjectHideFlags: 0

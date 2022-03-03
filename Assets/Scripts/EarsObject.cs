@@ -33,6 +33,7 @@ public class EarsObject : MonoBehaviour
         light.SetActive(false);
         portal.SetActive(true);
         velas.SetActive(false);
+        completedScenes.sceneChildhood = true;
     }
 
     private bool MeetsRequirements()

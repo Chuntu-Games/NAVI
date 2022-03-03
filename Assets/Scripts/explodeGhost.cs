@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.HighDefinition;
 
 public class explodeGhost : MonoBehaviour
 {
@@ -14,6 +16,8 @@ public class explodeGhost : MonoBehaviour
     public GameObject ghost;
     public AudioSource audioScream;
     public AudioSource audioExplosion;
+    public Volume volume;
+    Vignette vignette;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +38,14 @@ public class explodeGhost : MonoBehaviour
         exploded = true;
         audioScream.enabled = false;
         audioExplosion.Play();
+
+        Vignette tempVignette;
+        if (volume.profile.TryGet<Vignette>(out tempVignette))
+        {
+            vignette = tempVignette;
+        }
+
+        vignette.intensity.value += 0.2f;
     }
 
     // Update is called once per frame
