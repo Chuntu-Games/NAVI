@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class FlashLightMech : MonoBehaviour
 {
-    public bool isOn = false;
+    public bool isOn = true;
     public GameObject lightSource;
     public AudioSource clickSound;
     public bool failSafe = false;
+
+    void Start()
+    {
+        lightSource.SetActive(true);
+    }
 
     // Update is called once per frame
     void Update()

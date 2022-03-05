@@ -12,9 +12,11 @@ public class ReSpawnOnShoot : MonoBehaviour
    public AudioClip clip;
    public bool isPlaying = false;
    public Volume volume;
-   Vignette vignette;
+    public GameObject ghost;
+    Vignette vignette;
     private float coolDownPeriodInSeconds;
     private float timeStamp;
+    private bool check;
 
     void Start(){
        audioSource = GetComponent<AudioSource>();
@@ -30,7 +32,8 @@ public class ReSpawnOnShoot : MonoBehaviour
 
    private IEnumerator CheckShoot(){
        isPlaying = true;
-       if(Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
+        //if(EquippedObjects.weaponUse && Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
+        if (ghost.GetComponent<explodeGhost>().changePlayerPos)
         {
             audioSource.PlayOneShot(clip, 0.25f);
 
@@ -46,6 +49,7 @@ public class ReSpawnOnShoot : MonoBehaviour
 
             vignette.intensity.value = 0.0f;
             timeStamp = Time.time + coolDownPeriodInSeconds;
+            ghost.GetComponent<explodeGhost>().changePlayerPos = false;
         }
        isPlaying = false;
 

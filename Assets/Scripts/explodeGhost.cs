@@ -9,10 +9,12 @@ public class explodeGhost : MonoBehaviour
 
     public ParticleSystem system;
     public MeshRenderer mesh;
+    public BoxCollider collider;
     private Vector3 position1, position2, position3;
     private float coolDownPeriodInSeconds;
     private float timeStamp;
-    private bool exploded;
+    public bool exploded;
+    public bool changePlayerPos;
     public GameObject ghost;
     public AudioSource audioScream;
     public AudioSource audioExplosion;
@@ -30,9 +32,44 @@ public class explodeGhost : MonoBehaviour
         position3 = new Vector3(496.0f, 50.87f, 232.0f);
     }
 
-    void OnTriggerEnter(Collider other)
+    // Update is called once per frame
+    void Update()
+    {
+        if (exploded && (timeStamp <= Time.time))
+        {
+            system.Stop();
+            mesh.enabled = true;
+            collider.enabled = true;
+            exploded = false;
+            audioScream.enabled = true;
+
+            float dist1 = Vector3.Distance(position1, ghost.transform.position);
+            float dist2 = Vector3.Distance(position2, ghost.transform.position);
+            float dist3 = Vector3.Distance(position3, ghost.transform.position);
+            float max_val = Mathf.Max(dist1, Mathf.Max(dist2, dist3));
+            if (max_val == dist1) { ghost.transform.position = position1; }
+            else if (max_val == dist2) { ghost.transform.position = position2; }
+            else if (max_val == dist3) { ghost.transform.position = position3; }
+
+        }
+    }
+
+    void ExplosionShot()
     {
         mesh.enabled = false;
+        collider.enabled = false;
+        system.Play();
+        timeStamp = Time.time + coolDownPeriodInSeconds;
+        exploded = true;
+        audioScream.enabled = false;
+        audioExplosion.Play();
+        changePlayerPos = true;
+    }
+
+    void ExplosionHit()
+    {
+        mesh.enabled = false;
+        collider.enabled = false;
         system.Play();
         timeStamp = Time.time + coolDownPeriodInSeconds;
         exploded = true;
@@ -48,24 +85,17 @@ public class explodeGhost : MonoBehaviour
         vignette.intensity.value += 0.2f;
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        if (exploded && (timeStamp <= Time.time))
+        ExplosionHit();
+    }
+
+    void OnMouseOver()
+    {
+        if (EquippedObjects.weaponUse && Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
         {
-            system.Stop();
-            mesh.enabled = true;
-            exploded = false;
-            audioScream.enabled = true;
-
-            float dist1 = Vector3.Distance(position1, ghost.transform.position);
-            float dist2 = Vector3.Distance(position2, ghost.transform.position);
-            float dist3 = Vector3.Distance(position3, ghost.transform.position);
-            float max_val = Mathf.Max(dist1, Mathf.Max(dist2, dist3));
-            if (max_val == dist1) { ghost.transform.position = position1; }
-            else if (max_val == dist2) { ghost.transform.position = position2; }
-            else if (max_val == dist3) { ghost.transform.position = position3; }
-
+            ExplosionShot();
+            timeStamp = Time.time + coolDownPeriodInSeconds;
         }
     }
 }
