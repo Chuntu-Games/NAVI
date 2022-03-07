@@ -10,7 +10,7 @@ public class ItemObject : MonoBehaviour
     public GameObject pickObject;
     public GameObject flashlight;
     public GameObject weaponObj;
-
+    public GameObject marker;
     void Start()
     {
         string pickId = referenceItem.id;
@@ -83,6 +83,7 @@ public class ItemObject : MonoBehaviour
 
     private void OnMouseDown()
     {
+        
         if (pickUp && !weapon)
         {
             ScenesState.invisibleObjects[0] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
@@ -114,5 +115,20 @@ public class ItemObject : MonoBehaviour
         }
         else
             OnHandlePickupItem();
+    }
+
+   void OnMouseOver()
+    {
+        marker.SetActive(true);
+    }
+
+    void OnMouseExit()
+    {
+        marker.SetActive(false);
+    }
+    void OnDestroy()
+    {
+        marker.SetActive(false);
+  
     }
 }
