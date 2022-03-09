@@ -49,6 +49,7 @@ public class Cutscene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            completedScenes.currentScene = 2;
             SceneManager.LoadScene(2);
         }
     }
