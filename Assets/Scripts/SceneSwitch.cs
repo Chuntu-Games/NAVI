@@ -8,6 +8,10 @@ public class SceneSwitch : MonoBehaviour
     public int sceneToGo;
     void OnTriggerEnter(Collider other)
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        ScenesState.lastScene = currentScene.buildIndex;
+
         SceneManager.LoadScene(sceneToGo);
     }
 }
