@@ -10,8 +10,8 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(PlayScene);
-
+    
+        LoadScene.NivelCarga(PlayScene);
     }
 
      public void QuitGame()
