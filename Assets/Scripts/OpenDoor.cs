@@ -11,6 +11,7 @@ public class OpenDoor : MonoBehaviour
     public AudioClip clip;
     public GameObject panel;
     private bool CR_running = false;
+    public GameObject doorSubs;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,16 @@ public class OpenDoor : MonoBehaviour
         CR_running = false;
     }
 
+    private void Update()
+    {
+        if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Opening") && _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        {
+            this.gameObject.GetComponent<Circle>().marker.SetActive(false);
+            doorSubs.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
+    }
+
     void openDoor()
     {
         if (MeetsRequirements() )
@@ -40,8 +51,12 @@ public class OpenDoor : MonoBehaviour
             InventorySystem.Instance.DrawInventory();
 
             _animator.SetBool("open", true);
-            ScenesState.doorFamily = true;
             audioSource.PlayOneShot(clip, 0.25f);
+
+            Scene currentScene = SceneManager.GetActiveScene();
+            int scene = currentScene.buildIndex;
+            if (currentScene.buildIndex == 3)
+                ScenesState.doorFamily = true;
         }
         else if (!CR_running)
         {

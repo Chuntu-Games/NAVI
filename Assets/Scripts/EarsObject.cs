@@ -50,6 +50,9 @@ public class EarsObject : MonoBehaviour
         portal.SetActive(true);
         velas.SetActive(false);
         completedScenes.sceneChildhood = true;
+
+        this.gameObject.GetComponent<Circle>().marker.SetActive(false);
+        this.gameObject.SetActive(false);
     }
 
     private bool MeetsRequirements()
