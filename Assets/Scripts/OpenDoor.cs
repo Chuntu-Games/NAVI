@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpenDoor : MonoBehaviour
 {
@@ -12,17 +13,23 @@ public class OpenDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        int scene = currentScene.buildIndex;
+
         _animator = GetComponent<Animator>();
+        if(ScenesState.doorFamily && scene == 3) {_animator.SetBool("open", true);}
     }
 
     void openDoor()
     {
-        if (MeetsRequirements())
+        if (MeetsRequirements() )
         {
             RemoveRequirements();
             InventorySystem.Instance.DrawInventory();
 
             _animator.SetBool("open", true);
+            ScenesState.doorFamily = true;
             audioSource.PlayOneShot(clip, 0.25f);
         }
     }
