@@ -14,12 +14,14 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(PlayScene);
+        //SceneManager.LoadScene(PlayScene);
+        LoadScene.NivelCarga(PlayScene);
     }
 
     public void ContinueGame()
     {
-        SceneManager.LoadScene(completedScenes.currentScene);
+        //SceneManager.LoadScene(completedScenes.currentScene);
+        LoadScene.NivelCarga(PlayScene);
     }
 
     public void QuitGame()

@@ -12,6 +12,7 @@ public class ItemObject : MonoBehaviour
     public GameObject weaponObj;
     public GameObject player;
 
+
     void Start()
     {
         string pickId = referenceItem.id;
@@ -87,6 +88,7 @@ public class ItemObject : MonoBehaviour
         Debug.Log(ComputeDistance());
         if (ComputeDistance() < 7.0)
         {
+            Debug.Log("a");
             if (pickUp && !weapon)
             {
                 ScenesState.invisibleObjects[0] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
@@ -105,14 +107,13 @@ public class ItemObject : MonoBehaviour
             {
                 ScenesState.invisibleObjects[2] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
 
-
                 pickObject.SetActive(true);
                 Destroy(gameObject);
                 EquippedObjects.weaponEquipped = true;
                 EquippedObjects.weaponUse = true;
                 if (EquippedObjects.flashlightUse)
                 {
-                    flashlight.SetActive(false);
+                   flashlight.SetActive(false);
                     EquippedObjects.flashlightUse = false;
                 }
             }

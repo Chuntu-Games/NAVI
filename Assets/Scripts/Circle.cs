@@ -5,10 +5,14 @@ using UnityEngine;
 public class Circle : MonoBehaviour
 {
     public GameObject marker;
-    
-     void OnMouseOver()
+    public GameObject player;
+
+    void OnMouseOver()
     {
-        marker.SetActive(true);
+        if (ComputeDistance() < 7.0)
+            marker.SetActive(true);
+        else
+            marker.SetActive(false);
     }
 
     void OnMouseExit()
@@ -21,5 +25,11 @@ public class Circle : MonoBehaviour
              
             marker.SetActive(false);
         }
+    }
+
+    private float ComputeDistance()
+    {
+        var dist = Vector3.Distance(player.transform.position, transform.position);
+        return dist;
     }
 }
