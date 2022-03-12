@@ -10,8 +10,6 @@ public class ItemObject : MonoBehaviour
     public GameObject pickObject;
     public GameObject flashlight;
     public GameObject weaponObj;
-    public GameObject player;
-
 
     void Start()
     {
@@ -85,43 +83,36 @@ public class ItemObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(ComputeDistance() < 20.0){
-            if (pickUp && !weapon)
+        if (pickUp && !weapon)
+        {
+            ScenesState.invisibleObjects[0] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
+
+            pickObject.SetActive(true);
+            Destroy(gameObject);
+            EquippedObjects.flashlightEquipped = true;
+            EquippedObjects.flashlightUse = true;
+            if (EquippedObjects.weaponUse)
             {
-                ScenesState.invisibleObjects[0] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
-
-                pickObject.SetActive(true);
-                Destroy(gameObject);
-                EquippedObjects.flashlightEquipped = true;
-                EquippedObjects.flashlightUse = true;
-                if (EquippedObjects.weaponUse)
-                {
-                    weaponObj.SetActive(false);
-                    EquippedObjects.weaponUse = false;
-                }
+                weaponObj.SetActive(false);
+                EquippedObjects.weaponUse = false;
             }
-            else if (pickUp && weapon)
-            {
-                ScenesState.invisibleObjects[2] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
-
-
-                pickObject.SetActive(true);
-                Destroy(gameObject);
-                EquippedObjects.weaponEquipped = true;
-                EquippedObjects.weaponUse = true;
-                if (EquippedObjects.flashlightUse)
-                {
-                    flashlight.SetActive(false);
-                    EquippedObjects.flashlightUse = false;
-                }
-            }
-            else
-                OnHandlePickupItem();
         }
-    }
+        else if (pickUp && weapon)
+        {
+            ScenesState.invisibleObjects[2] = true; //[linterna, keyfamily, escopeta, mano, hacha, audio]
 
-    private float ComputeDistance(){
-        var dist = Vector3.Distance(player.transform.position, transform.position);
-        return dist;
+
+            pickObject.SetActive(true);
+            Destroy(gameObject);
+            EquippedObjects.weaponEquipped = true;
+            EquippedObjects.weaponUse = true;
+            if (EquippedObjects.flashlightUse)
+            {
+                flashlight.SetActive(false);
+                EquippedObjects.flashlightUse = false;
+            }
+        }
+        else
+            OnHandlePickupItem();
     }
 }
