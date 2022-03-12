@@ -11,8 +11,12 @@ public class SceneSwitch : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         //SceneManager.LoadScene(sceneToGo);
+        completedScenes.currentScene = sceneToGo;
+        Scene currentScene = SceneManager.GetActiveScene();
+        ScenesState.lastScene = currentScene.buildIndex;
+
+        //SceneManager.LoadScene(sceneToGo);
         load.SetActive(true);
         LoadScene.NivelCarga(sceneToGo);
-        completedScenes.currentScene = sceneToGo;
     }
 }

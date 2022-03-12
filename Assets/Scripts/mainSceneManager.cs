@@ -14,10 +14,18 @@ public class mainSceneManager : MonoBehaviour
     public GameObject torchTanks;
     public GameObject flameTanks;
     public GameObject finalPortal;
+    public GameObject player;
+
 
     // Start is called before the first frame update
     void Start()
     {
+
+        if (ScenesState.lastScene > 2 && ScenesState.lastScene < 6)
+        {
+            player.transform.position = ScenesState.positionArray[ScenesState.lastScene - 3];
+        }
+
         if (completedScenes.sceneChildhood)
         {
             portalChildhood.SetActive(false);
@@ -38,5 +46,16 @@ public class mainSceneManager : MonoBehaviour
         }
         if (completedScenes.sceneChildhood && completedScenes.sceneFamily && completedScenes.sceneTanks)
             finalPortal.SetActive(true);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            Debug.Log(ScenesState.lastScene);
+            Debug.Log(ScenesState.positionArray[0]);
+            Debug.Log(ScenesState.positionArray[1]);
+            Debug.Log(ScenesState.positionArray[2]);
+        }  
     }
 }
