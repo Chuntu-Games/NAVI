@@ -10,6 +10,7 @@ public class lookObject : MonoBehaviour
     public GameObject cameraOff;
     public GameObject cameraOn;
     public GameObject ui;
+    public GameObject player;
 
     public void EndScene()
     {
@@ -42,6 +43,14 @@ public class lookObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        EndScene();
+        Debug.Log(ComputeDistance());
+        if (ComputeDistance() < 7.0)
+            EndScene();
+    }
+
+    private float ComputeDistance()
+    {
+        var dist = Vector3.Distance(player.transform.position, transform.position);
+        return dist;
     }
 }

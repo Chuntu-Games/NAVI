@@ -15,15 +15,16 @@ public class mainSceneManager : MonoBehaviour
     public GameObject flameTanks;
     public GameObject finalPortal;
     public GameObject player;
+    public GameObject target;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
         if (ScenesState.lastScene > 2 && ScenesState.lastScene < 6)
         {
             player.transform.position = ScenesState.positionArray[ScenesState.lastScene - 3];
+            player.transform.LookAt(target.transform.position);
         }
 
         if (completedScenes.sceneChildhood)

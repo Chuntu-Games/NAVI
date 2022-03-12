@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: 53437312e4b8f0847a72c23bc8044dd9
+  - enabled: 1
+    path: Assets/Scenes/Pantalla de carga.unity
+    guid: 89360ece43821f3488f555ace4cc7ec6
   m_configObjects: {}

@@ -9,7 +9,7 @@ public class Circle : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (ComputeDistance() < 7.0)
+        if (ComputeDistance() <= 7.0)
             marker.SetActive(true);
         else
             marker.SetActive(false);

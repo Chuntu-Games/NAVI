@@ -84,7 +84,13 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+        float run;
+        if (Input.GetKey(KeyCode.LeftShift))
+            run = 5.0f;
+        else
+            run = 1.0f;
+
+        controller.Move(move * speed * run * Time.deltaTime);
 
         if (jumpPressed && isGrounded)
         {

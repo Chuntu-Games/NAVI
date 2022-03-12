@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1.0233192, g: 1.267849, b: 1.6784401, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5628,4 +5628,5 @@ MonoBehaviour:
   torchTanks: {fileID: 134418509}
   flameTanks: {fileID: 134418508}
   finalPortal: {fileID: 1280718463}
-  player: {fileID: 0}
+  player: {fileID: 1861717850}
+  target: {fileID: 2147333125}

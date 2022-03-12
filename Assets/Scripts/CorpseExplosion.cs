@@ -9,7 +9,17 @@ public class CorpseExplosion : MonoBehaviour
     public GameObject corpse;
     public GameObject photos;
     public List<ItemRequirement> requirements;
+    public GameObject panel;
+    private bool CR_running = false;
 
+    IEnumerator panelAppears()
+    {
+        CR_running = true;
+        panel.SetActive(true);
+        yield return new WaitForSeconds(3);
+        panel.SetActive(false);
+        CR_running = false;
+    }
 
     void explosion()
     {
@@ -20,8 +30,13 @@ public class CorpseExplosion : MonoBehaviour
 
             particleSystem.SetActive(true);
             system1.Play();
+            this.gameObject.GetComponent<Circle>().marker.SetActive(false);
             corpse.SetActive(false);
             photos.SetActive(true);
+        }
+        else if (!CR_running)
+        {
+            StartCoroutine(panelAppears());
         }
     }
 

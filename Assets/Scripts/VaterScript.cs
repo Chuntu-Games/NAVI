@@ -14,10 +14,22 @@ public class VaterScript : MonoBehaviour
     public List<ItemRequirement> requirements;
     private float coolDownPeriodInSeconds;
     private float timeStamp;
+    public GameObject panel;
+    private bool CR_running = false;
+    private bool ending = false;
 
     void Start()
     {
         timeStamp = Time.time;
+    }
+
+    IEnumerator panelAppears()
+    {
+        CR_running = true;
+        panel.SetActive(true);
+        yield return new WaitForSeconds(3);
+        panel.SetActive(false);
+        CR_running = false;
     }
 
     void vomit()
@@ -37,6 +49,11 @@ public class VaterScript : MonoBehaviour
 
             coolDownPeriodInSeconds = 3.0f;
             timeStamp = Time.time + coolDownPeriodInSeconds;
+            ending = true;
+        }
+        else if (!CR_running)
+        {
+            StartCoroutine(panelAppears());
         }
     }
 
@@ -69,7 +86,7 @@ public class VaterScript : MonoBehaviour
 
     void Update()
     {
-        if (timeStamp < Time.time)
+        if (ending && timeStamp < Time.time)
         {
             player.GetComponent<CharacterController>().enabled = true;
             camera.GetComponent<LookWithMouse>().enabled = true;
@@ -77,6 +94,9 @@ public class VaterScript : MonoBehaviour
             system1.Stop();
             system2.Stop();
             system3.Stop();
+
+            this.gameObject.GetComponent<Circle>().marker.SetActive(false);
+            this.gameObject.SetActive(false);
         }
     }
 }

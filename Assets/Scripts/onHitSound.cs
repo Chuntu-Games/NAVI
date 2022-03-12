@@ -6,6 +6,7 @@ public class onHitSound : MonoBehaviour
 {
     AudioSource audioSource;
     public AudioClip clip;
+    private bool listened = false;
 
 
     void Start()
@@ -15,10 +16,11 @@ public class onHitSound : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && !listened)
         {
             Debug.Log("Voys a sonar");
             audioSource.PlayOneShot(clip, 1f);
+            listened = true;
         }
     }
 }
