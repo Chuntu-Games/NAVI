@@ -8,11 +8,22 @@ public class OpenDoor : MonoBehaviour
     public List<ItemRequirement> requirements;
     public AudioSource audioSource;
     public AudioClip clip;
+    public GameObject panel;
+    private bool CR_running = false;
 
     // Start is called before the first frame update
     void Start()
     {
         _animator = GetComponent<Animator>();
+    }
+
+    IEnumerator panelAppears()
+    {
+        CR_running = true;
+        panel.SetActive(true);
+        yield return new WaitForSeconds(3);
+        panel.SetActive(false);
+        CR_running = false;
     }
 
     void openDoor()
@@ -24,6 +35,10 @@ public class OpenDoor : MonoBehaviour
 
             _animator.SetBool("open", true);
             audioSource.PlayOneShot(clip, 0.25f);
+        }
+        else if (!CR_running)
+        {
+            StartCoroutine(panelAppears());
         }
     }
 

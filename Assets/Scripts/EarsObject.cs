@@ -13,6 +13,18 @@ public class EarsObject : MonoBehaviour
     public GameObject light;
     public GameObject portal;
     public GameObject velas;
+    public GameObject player;
+    public GameObject panel;
+    private bool CR_running = false;
+
+    IEnumerator panelAppears()
+    {
+        CR_running = true;
+        panel.SetActive(true);
+        yield return new WaitForSeconds(3);
+        panel.SetActive(false);
+        CR_running = false;
+    }
 
     public void ShowEars()
     {
@@ -22,6 +34,10 @@ public class EarsObject : MonoBehaviour
             InventorySystem.Instance.DrawInventory();
 
             ears.SetActive(true);
+        }
+        else if (!CR_running)
+        {
+            StartCoroutine(panelAppears());
         }
     }
 
@@ -60,9 +76,15 @@ public class EarsObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!ears.activeSelf)
+        if (!ears.activeSelf && ComputeDistance() < 7.0)
             ShowEars();
-        else
+        else if (ears.activeSelf && ComputeDistance() < 7.0)
             EndScene();
+    }
+
+    private float ComputeDistance()
+    {
+        var dist = Vector3.Distance(player.transform.position, transform.position);
+        return dist;
     }
 }
