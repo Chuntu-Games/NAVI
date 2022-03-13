@@ -39,6 +39,7 @@ public class OpenDoor : MonoBehaviour
         {
             this.gameObject.GetComponent<Circle>().marker.SetActive(false);
             doorSubs.SetActive(true);
+            panel.SetActive(false);
             this.gameObject.SetActive(false);
         }
     }

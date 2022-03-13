@@ -1829,7 +1829,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2890709792437638813, guid: 3337658caa738384585bf536b00e2236, type: 3}
       propertyPath: m_Text
-      value: New Game
+      value: Iniciar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890709792510647981, guid: 3337658caa738384585bf536b00e2236, type: 3}
+      propertyPath: m_Text
+      value: Salir
       objectReference: {fileID: 0}
     - target: {fileID: 2890709793926183858, guid: 3337658caa738384585bf536b00e2236, type: 3}
       propertyPath: PlayScene
@@ -3610,7 +3614,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Settings
+  m_Text: Opciones
 --- !u!222 &1265012999
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4275,7 +4279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Continuar
 --- !u!222 &1631871794
 CanvasRenderer:
   m_ObjectHideFlags: 0

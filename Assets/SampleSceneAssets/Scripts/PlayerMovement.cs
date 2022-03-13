@@ -68,19 +68,12 @@ public class PlayerMovement : MonoBehaviour
 #endif
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        Vector3 old_pos = transform.position;
 
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
-
-        if (x > 0.0f || z > 0.0f)
-        {
-            if (!audioSrc.isPlaying)
-                audioSrc.Play();
-        }
-        else
-            audioSrc.Play();
 
         Vector3 move = transform.right * x + transform.forward * z;
 
@@ -100,5 +93,13 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        if (isGrounded && transform.position != old_pos)
+        {
+            if (!audioSrc.isPlaying)
+                audioSrc.Play();
+        }
+        else
+            audioSrc.Play();
     }
 }

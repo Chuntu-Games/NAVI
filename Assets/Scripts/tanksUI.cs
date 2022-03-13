@@ -9,13 +9,17 @@ public class tanksUI : MonoBehaviour
     public List<ItemRequirement> requirements;
     public GameObject ui;
     public GameObject text;
+    public GameObject player;
 
     public void ReadMode()
     {
-        ui.SetActive(true);
-        text.SetActive(true);
-        Time.timeScale = 0f;
-        PauseMenu.GameIsPaused = true;
+        if (ComputeDistance() < 25.0)
+        {
+            ui.SetActive(true);
+            text.SetActive(true);
+            Time.timeScale = 0f;
+            PauseMenu.GameIsPaused = true;
+        }
     }
 
     public void PlayMode()
@@ -54,5 +58,11 @@ public class tanksUI : MonoBehaviour
             ReadMode();
         else
             PlayMode();
+    }
+
+    private float ComputeDistance()
+    {
+        var dist = Vector3.Distance(player.transform.position, transform.position);
+        return dist;
     }
 }

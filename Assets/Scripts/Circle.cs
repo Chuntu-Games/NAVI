@@ -6,10 +6,13 @@ public class Circle : MonoBehaviour
 {
     public GameObject marker;
     public GameObject player;
+    public bool tanks;
 
     void OnMouseOver()
     {
-        if (ComputeDistance() <= 7.0)
+        if (!tanks && ComputeDistance() <= 7.0)
+            marker.SetActive(true);
+        else if (tanks && ComputeDistance() <= 25.0)
             marker.SetActive(true);
         else
             marker.SetActive(false);

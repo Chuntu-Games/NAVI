@@ -89,6 +89,9 @@ public class Cutscene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            text4.SetActive(true);
+            background.SetActive(true);
+
             completedScenes.currentScene = 2;
             SceneManager.LoadScene(2);
         }

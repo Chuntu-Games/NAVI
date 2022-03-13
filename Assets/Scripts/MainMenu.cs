@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
     public void ContinueGame()
     {
         //SceneManager.LoadScene(completedScenes.currentScene);
-        LoadScene.NivelCarga(PlayScene);
+        LoadScene.NivelCarga(completedScenes.currentScene);
     }
 
     public void QuitGame()

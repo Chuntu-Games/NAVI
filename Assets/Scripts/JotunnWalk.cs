@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Security.Cryptography;
 
 public class JotunnWalk : MonoBehaviour
 {
@@ -18,10 +19,25 @@ public class JotunnWalk : MonoBehaviour
     // @ Comportamiento
     private bool walk = true;
 
+    static GameObject[] RandomizeArray(GameObject[] arr)
+    {
+        for (var i = arr.Length - 1; i > 0; i--)
+        {
+            var r = Random.Range(0, i);
+            var tmp = arr[i];
+            arr[i] = arr[r];
+            arr[r] = tmp;
+        }
+
+        return arr;
+    }
+
     void Start()
     {
         // @ Agregamos las posiciones de los waypoints a la lista
-        GameObject[] waypoints = GameObject.FindGameObjectsWithTag("waypoint");
+        GameObject[] waypoints_init = GameObject.FindGameObjectsWithTag("waypoint");
+        GameObject[] waypoints = RandomizeArray(waypoints_init);
+
         foreach (GameObject waypoint in waypoints)
         {
             listaWaypoints.Add(waypoint.transform.position);
@@ -53,7 +69,7 @@ public class JotunnWalk : MonoBehaviour
     IEnumerator Wait()
     {
         //GetComponent<Animation>().CrossFade("idle");
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(1.0f);
         walk = true;
     }
 

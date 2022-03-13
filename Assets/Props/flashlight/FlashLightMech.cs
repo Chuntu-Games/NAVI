@@ -17,7 +17,7 @@ public class FlashLightMech : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("FKey"))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (isOn == false && failSafe == false)
             {
