@@ -104,6 +104,9 @@ public class JotunnWalk : MonoBehaviour
         transform.LookAt(waypointActual);
         transform.position = transform.position + movimiento;
 
+        Vector3 temp = transform.position;
+        temp.y = -2.5f;
+        transform.position = temp;
     }
 
 

@@ -25,37 +25,33 @@ public class EndGame : MonoBehaviour
         yield return new WaitForSeconds(10);
         Debug.Log("Quitting game....");
 
-        string path = Application.persistentDataPath + "/ABRAZA LA INEXISTENCIA.txt";
-        //Write some text to the test.txt file
-        StreamWriter writer = new StreamWriter(path, true);
-        writer.WriteLine("I went to the Garden of Love,\n");
-        writer.WriteLine("And saw what I never had seen:\n");
-        writer.WriteLine("A Chapel was built in the midst,\n");
-        writer.WriteLine("Where I used to play on the green.\n");
-        writer.WriteLine("\n");
-        writer.WriteLine("And the gates of this Chapel were shut,\n");
-        writer.WriteLine("And Thou shalt not. writ over the door;\n");
-        writer.WriteLine("So I turn’d to the Garden of Love,\n");
-        writer.WriteLine("That so many sweet flowers bore.\n");
-        writer.WriteLine("\n");
-        writer.WriteLine("And I saw it was filled with graves,\n");
-        writer.WriteLine("And tomb-stones where flowers should be:\n");
-        writer.WriteLine("And Priests in black gowns, were walking their rounds,\n");
-        writer.WriteLine("And binding with briars, my joys & desires.\n");
-        writer.WriteLine("\n");
-        writer.WriteLine("https://drive.google.com/file/d/11WEz-O5suxnW3b24hvyCQrKfml7yElZc/view?usp=sharing");
-        writer.WriteLine("\n");
-        writer.Close();
-        StreamReader reader = new StreamReader(path);
-        //Print the text from the file
-        Debug.Log(reader.ReadToEnd());
-        reader.Close();
-
         Application.Quit();
     }
 
     void OnTriggerEnter(Collider other)
     {
+        Directory.CreateDirectory(Application.streamingAssetsPath + "/ABRAZA LA INEXISTENCIA/");
+        string textDocumentName = Application.streamingAssetsPath + "/ABRAZA LA INEXISTENCIA/" + "abraza la inexistencia" + ".txt";
+
+        //Write some text to the test.txt file
+        File.WriteAllText(textDocumentName, "I went to the Garden of Love,\n");
+        File.AppendAllText(textDocumentName, "And saw what I never had seen:\n");
+        File.AppendAllText(textDocumentName, "A Chapel was built in the midst,\n");
+        File.AppendAllText(textDocumentName, "Where I used to play on the green.\n");
+        File.AppendAllText(textDocumentName, "\n");
+        File.AppendAllText(textDocumentName, "And the gates of this Chapel were shut,\n");
+        File.AppendAllText(textDocumentName, "And Thou shalt not. writ over the door;\n");
+        File.AppendAllText(textDocumentName, "So I turn’d to the Garden of Love,\n");
+        File.AppendAllText(textDocumentName, "That so many sweet flowers bore.\n");
+        File.AppendAllText(textDocumentName, "\n");
+        File.AppendAllText(textDocumentName, "And I saw it was filled with graves,\n");
+        File.AppendAllText(textDocumentName, "And tomb-stones where flowers should be:\n");
+        File.AppendAllText(textDocumentName, "And Priests in black gowns, were walking their rounds,\n");
+        File.AppendAllText(textDocumentName, "And binding with briars, my joys & desires.\n");
+        File.AppendAllText(textDocumentName, "\n");
+        File.AppendAllText(textDocumentName, "https://drive.google.com/file/d/11WEz-O5suxnW3b24hvyCQrKfml7yElZc/view?usp=sharing");
+        File.AppendAllText(textDocumentName, "\n");
+
         StartCoroutine(TheSequence());
     }
 }
