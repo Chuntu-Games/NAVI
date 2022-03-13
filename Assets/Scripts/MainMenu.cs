@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     public GameObject quitButton;
     public GameObject playButton;
     public GameObject resumeButton;
+    public GameObject continueLoad;
 
     public void PlayGame()
     {
@@ -21,6 +22,7 @@ public class MainMenu : MonoBehaviour
     public void ContinueGame()
     {
         //SceneManager.LoadScene(completedScenes.currentScene);
+        continueLoad.SetActive(true);
         LoadScene.NivelCarga(completedScenes.currentScene);
     }
 

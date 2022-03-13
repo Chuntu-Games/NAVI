@@ -3465,6 +3465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 1387164688}
   player: {fileID: 1861717850}
+  tanks: 0
 --- !u!1 &1429640753 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8905134256007573587, guid: aa2a47b5d44fc7844b40f004f1b0c914, type: 3}
@@ -5139,10 +5140,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 859f0bf604f548340a68e5410228b6e3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

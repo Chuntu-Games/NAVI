@@ -77,13 +77,13 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        float run;
+        /*float run;
         if (Input.GetKey(KeyCode.LeftShift))
             run = 5.0f;
         else
-            run = 1.0f;
+            run = 1.0f;*/
 
-        controller.Move(move * speed * run * Time.deltaTime);
+        controller.Move(move * speed * Time.deltaTime);
 
         if (jumpPressed && isGrounded)
         {
@@ -100,6 +100,6 @@ public class PlayerMovement : MonoBehaviour
                 audioSrc.Play();
         }
         else
-            audioSrc.Play();
+            audioSrc.Stop();
     }
 }

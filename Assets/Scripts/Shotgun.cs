@@ -21,9 +21,9 @@ public class Shotgun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
+        if (EquippedObjects.weaponUse && Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
         {
-            audioSource.PlayOneShot(clip, 0.25f);
+            audioSource.PlayOneShot(clip, 1.0f);
             system.Play();
             timeStamp = Time.time + coolDownPeriodInSeconds;
         }

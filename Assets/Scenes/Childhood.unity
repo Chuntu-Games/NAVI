@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12791097, g: 0.15845263, b: 0.2097528, a: 1}
+  m_IndirectSpecularColor: {r: 0.1279149, g: 0.15848112, b: 0.20980501, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2303,6 +2303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
+  tanks: 0
 --- !u!65 &295952370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3254,6 +3255,103 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &364938174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364938175}
+  - component: {fileID: 364938178}
+  - component: {fileID: 364938177}
+  - component: {fileID: 364938176}
+  m_Layer: 0
+  m_Name: Quad (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364938175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364938174}
+  m_LocalRotation: {x: 0.90145516, y: 0, z: 0, w: 0.4328726}
+  m_LocalPosition: {x: -4.86, y: 5.969, z: -13.575}
+  m_LocalScale: {x: 19.48, y: 9.5, z: 3.5429}
+  m_Children: []
+  m_Father: {fileID: 1677846992}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 128.7, y: 0, z: 0}
+--- !u!64 &364938176
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364938174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &364938177
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364938174}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 178ddcbe3a184304da99e6cc50059289, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &364938178
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364938174}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &369802366 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6279087277881825844, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -7056,6 +7154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
+  tanks: 0
 --- !u!114 &989907949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8225,6 +8324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 105277187}
   player: {fileID: 346533423}
+  tanks: 0
 --- !u!1 &1153807160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5982405092622287127, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -8303,6 +8403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 105277187}
   player: {fileID: 346533423}
+  tanks: 0
 --- !u!1 &1170970411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8665318631282041333, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -10015,6 +10116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
+  tanks: 0
 --- !u!65 &1430251367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10612,7 +10714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515197696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.23, y: -15.775552, z: -175.62}
+  m_LocalPosition: {x: -29.23, y: -15.775552, z: -174.142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1571136367}
@@ -12338,6 +12440,7 @@ Transform:
   - {fileID: 513856855}
   - {fileID: 434139592}
   - {fileID: 1844285650}
+  - {fileID: 364938175}
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14568,6 +14671,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b9c124967a91b8e4caf1a6c09196fc52, type: 2}
+    - target: {fileID: 6804898727606986689, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 139.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6804898727606986689, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.919
+      objectReference: {fileID: 0}
+    - target: {fileID: 6804898727606986689, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.85
+      objectReference: {fileID: 0}
     - target: {fileID: 7100926188723340003, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15918,6 +16033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
+  tanks: 0
 --- !u!1001 &6023414606353633946
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -28,26 +28,6 @@ public class Cutscene : MonoBehaviour
         StartCoroutine(TheSequence());
     }
 
-    /*audioSource.Play();
-        yield return new WaitForSeconds(19);
-        Cam1.SetActive(true);
-        Cam0.SetActive(false);
-        yield return new WaitForSeconds(15);
-        Cam2.SetActive(true);
-        Cam1.SetActive(false);
-        yield return new WaitForSeconds(9.666666f);
-        Cam3.SetActive(true);
-        Cam2.SetActive(false);
-        yield return new WaitForSeconds(8.333333f);
-        Cam4.SetActive(true);
-        Cam3.SetActive(false);
-        yield return new WaitForSeconds(9.033333f);
-        Cam5.SetActive(true);
-        Cam4.SetActive(false);
-        yield return new WaitForSeconds(1.0f);
-        SceneManager.LoadScene(2);
-    */
-
     IEnumerator TheSequence()
     {
         yield return new WaitForSeconds(3);
@@ -89,7 +69,19 @@ public class Cutscene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            StopCoroutine(TheSequence());
+            text1.SetActive(false);
+            text2.SetActive(false);
+            text3.SetActive(false);
             text4.SetActive(true);
+
+            Cam0.SetActive(true);
+            Cam1.SetActive(false);
+            Cam2.SetActive(false);
+            Cam3.SetActive(false);
+            Cam4.SetActive(false);
+            Cam5.SetActive(false);
+
             background.SetActive(true);
 
             completedScenes.currentScene = 2;
