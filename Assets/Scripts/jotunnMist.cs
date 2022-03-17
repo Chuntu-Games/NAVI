@@ -20,7 +20,7 @@ public class jotunnMist : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (colliding && flashlight.GetComponent<FlashLightMech>().isOn)
+        if (colliding && flashlight.activeSelf && flashlight.GetComponent<FlashLightMech>().isOn)
         {
             Fog tempVignette;
             if (volume.profile.TryGet<Fog>(out tempVignette))

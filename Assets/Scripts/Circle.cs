@@ -7,12 +7,11 @@ public class Circle : MonoBehaviour
     public GameObject marker;
     public GameObject player;
     public bool tanks;
+    public bool childhoodDoor;
 
     void OnMouseOver()
     {
-        if (!tanks && ComputeDistance() <= 7.0)
-            marker.SetActive(true);
-        else if (tanks && ComputeDistance() <= 25.0)
+        if ((!tanks && ComputeDistance() <= 7.0) || (tanks && ComputeDistance() <= 25.0) || childhoodDoor)
             marker.SetActive(true);
         else
             marker.SetActive(false);

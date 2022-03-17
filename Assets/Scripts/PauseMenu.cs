@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject GameplayUI;
     public int MainMenuScene;
+    public bool familyScene;
+    public GameObject granja;
 
     // Update is called once per frame
     void Update()
@@ -48,6 +50,14 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        if (familyScene)
+        {
+            EquippedObjects.flashlightEquipped = granja.GetComponent<hideHUD>().flashlightEquippedOriginal;
+            EquippedObjects.flashlightUse = granja.GetComponent<hideHUD>().flashlightUseOriginal;
+            EquippedObjects.weaponEquipped = granja.GetComponent<hideHUD>().shotgunEquippedOriginal;
+            EquippedObjects.weaponUse = granja.GetComponent<hideHUD>().shotgunUseOriginal;
+        }
+
         Time.timeScale =1f ;
         LoadScene.NivelCarga(MainMenuScene);
 

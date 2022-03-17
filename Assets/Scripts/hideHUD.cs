@@ -6,10 +6,10 @@ public class hideHUD : MonoBehaviour
 {
     public GameObject flashlight;
     public GameObject shotgun;
-    private bool flashlightEquippedOriginal;
-    private bool flashlightUseOriginal;
-    private bool shotgunEquippedOriginal;
-    private bool shotgunUseOriginal;
+    public bool flashlightEquippedOriginal;
+    public bool flashlightUseOriginal;
+    public bool shotgunEquippedOriginal;
+    public bool shotgunUseOriginal;
 
     // Start is called before the first frame update
     void Start()

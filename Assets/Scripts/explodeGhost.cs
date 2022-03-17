@@ -20,6 +20,7 @@ public class explodeGhost : MonoBehaviour
     public AudioSource audioExplosion;
     public Volume volume;
     Vignette vignette;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +51,6 @@ public class explodeGhost : MonoBehaviour
             if (max_val == dist1) { ghost.transform.position = position1; }
             else if (max_val == dist2) { ghost.transform.position = position2; }
             else if (max_val == dist3) { ghost.transform.position = position3; }
-
         }
     }
 
@@ -63,6 +63,9 @@ public class explodeGhost : MonoBehaviour
         exploded = true;
         audioScream.enabled = false;
         audioExplosion.Play();
+        player.GetComponent<CharacterController>().enabled = false;
+        player.transform.position = new Vector3(420.0f, 50.0f, 447.0f);
+        player.GetComponent<CharacterController>().enabled = true;
         changePlayerPos = true;
     }
 
@@ -92,7 +95,7 @@ public class explodeGhost : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (EquippedObjects.weaponUse && Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
+        if (EquippedObjects.weaponUse && Input.GetMouseButtonDown(1) && (player.GetComponent<Shotgun>().timeStamp <= Time.time))
         {
             ExplosionShot();
             timeStamp = Time.time + coolDownPeriodInSeconds;

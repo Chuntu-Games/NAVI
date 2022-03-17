@@ -33,6 +33,9 @@ public class CorpseExplosion : MonoBehaviour
             this.gameObject.GetComponent<Circle>().marker.SetActive(false);
             corpse.SetActive(false);
             photos.SetActive(true);
+
+            familySceneManager.showCorpo = false;
+            familySceneManager.showPhotos = true;
         }
         else if (!CR_running)
         {

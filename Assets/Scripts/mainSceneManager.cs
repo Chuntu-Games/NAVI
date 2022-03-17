@@ -23,7 +23,9 @@ public class mainSceneManager : MonoBehaviour
     {
         if (ScenesState.lastScene > 2 && ScenesState.lastScene < 6)
         {
+            player.GetComponent<CharacterController>().enabled = false;
             player.transform.position = ScenesState.positionArray[ScenesState.lastScene - 3];
+            player.GetComponent<CharacterController>().enabled = true;
             player.transform.LookAt(target.transform.position);
         }
 

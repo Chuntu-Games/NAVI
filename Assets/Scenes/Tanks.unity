@@ -146,15 +146,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 137.19562
+      value: 135.84
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 313.93542
+      value: 312.459
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 626.24567
+      value: 629.31
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -194,7 +194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_ShadowUpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -202,11 +202,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
   m_PrefabInstance: {fileID: 2834658}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3216469 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-  m_PrefabInstance: {fileID: 1579462432}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &26720603
 GameObject:
@@ -321,7 +316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.28
+      value: 24.18
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -358,6 +353,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -527,7 +534,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -573,6 +580,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1001 &124097679
@@ -592,7 +611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.678497
+      value: 26.571
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -629,6 +648,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -702,6 +733,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1 &165781650 stripped
@@ -766,6 +809,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1001 &166536832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -821,6 +865,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!4 &166536833 stripped
@@ -828,6 +884,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
   m_PrefabInstance: {fileID: 166536832}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &172296605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172296606}
+  - component: {fileID: 172296608}
+  - component: {fileID: 172296607}
+  m_Layer: 5
+  m_Name: TextChapas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &172296606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172296605}
+  m_LocalRotation: {x: 0, y: 0, z: -0.17364825, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1930627515}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 282.1, y: -395.9}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &172296607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172296605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 633283eba2923794bba331780ac44959, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &172296608
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172296605}
+  m_CullTransparentMesh: 1
 --- !u!1001 &173341986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -882,6 +1017,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -1014,6 +1161,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!4 &222310745 stripped
@@ -1075,6 +1234,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -1181,7 +1352,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.96944445
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1262,6 +1433,7 @@ MonoBehaviour:
   audioScream: {fileID: 238409816}
   audioExplosion: {fileID: 238409821}
   volume: {fileID: 1904050174}
+  player: {fileID: 2094189332}
 --- !u!82 &238409821
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1333,7 +1505,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.42777777
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1606,7 +1778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   marker: {fileID: 461074070}
   player: {fileID: 2094189332}
-  tanks: 0
+  tanks: 1
+  childhoodDoor: 0
 --- !u!114 &306930744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,6 +1797,8 @@ MonoBehaviour:
   cameraOn: {fileID: 2032130480}
   ui: {fileID: 1421716380}
   player: {fileID: 2094189332}
+  chapas: 1
+  identificacion: {fileID: 172296605}
 --- !u!65 &306930745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1857,6 +2032,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1 &327730204
@@ -1951,6 +2138,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1001 &407028543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2344,7 +2532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_ShadowUpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -2457,6 +2645,7 @@ MonoBehaviour:
   portals: {fileID: 488183423}
   ui: {fileID: 1421716380}
   tanksScene: 1
+  identificacion: {fileID: 172296605}
 --- !u!65 &470179298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2894,12 +3083,20 @@ PrefabInstance:
       value: 179.899
       objectReference: {fileID: 0}
     - target: {fileID: -7788930121674586541, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7788930121674586541, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 259794a2939e8bd4eba82347399c8c41, type: 2}
     - target: {fileID: -6849689583864404296, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1511073787741549663, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1511073787741549663, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2915,6 +3112,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 936462770959782491, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2219155212605359001, guid: 594f9bbd4c9ae504f96e264360257199, type: 3}
@@ -2946,11 +3147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.955597
+      value: 35.56
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.828499
+      value: 29.433
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2987,6 +3188,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -3066,6 +3279,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1 &554644588
 GameObject:
   m_ObjectHideFlags: 0
@@ -3180,7 +3394,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1300376794}
-  - {fileID: 3216469}
   - {fileID: 461206583}
   - {fileID: 2413568}
   m_Father: {fileID: 2062753777}
@@ -3386,6 +3599,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1 &629920226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5065152579678927903, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
@@ -3448,6 +3662,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1001 &638041630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3502,6 +3717,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -3564,6 +3791,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -3685,31 +3924,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.68563014
+      value: -0.0428059
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.49188787
+      value: 0.28578046
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5079824
+      value: -0.4914203
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.17294952
+      value: -0.82158583
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -121.765
+      value: -56.3
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: -50.4
       objectReference: {fileID: 0}
     - target: {fileID: 6610071208462999614, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -150.08
+      value: -157.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 662fcff16078b8e43829dbaca714d981, type: 3}
@@ -4618,7 +4857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.678501
+      value: 26.63
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4656,6 +4895,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1001 &879997171
@@ -4675,7 +4926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.05
+      value: 16.93
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4712,6 +4963,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -4855,7 +5118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_ShadowUpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -4954,11 +5217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.828499
+      value: 26.853
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -44.599243
+      value: -39.45
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4991,6 +5254,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -5053,6 +5328,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -5192,6 +5479,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToGo: 2
   load: {fileID: 1560936465}
+  familyScene: 0
+  granja: {fileID: 0}
 --- !u!65 &1045826698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5310,6 +5599,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1 &1060962180
@@ -5408,6 +5709,10 @@ PrefabInstance:
     - target: {fileID: 738646681744756154, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_Name
       value: PlayerControllerFPS
+      objectReference: {fileID: 0}
+    - target: {fileID: 738646681744756154, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 738646681744756154, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_TagString
@@ -5555,6 +5860,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1 &1090811997 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1379025426976353721, guid: 2df46fa39ed58ea40a0b7f4cddcd3d08, type: 3}
@@ -5617,6 +5923,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1 &1112562096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,11 +6535,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.678501
+      value: 27.3
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.96924
+      value: -50.13
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6265,6 +6572,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -6429,6 +6748,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1001 &1251380139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6438,7 +6758,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6483,6 +6803,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -6567,6 +6899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToGo: 2
   load: {fileID: 1560936465}
+  familyScene: 0
+  granja: {fileID: 0}
 --- !u!65 &1269173862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6718,6 +7052,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!4 &1297195835 stripped
@@ -6823,15 +7169,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.6
+      value: 41.41
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.828491
+      value: 27.55
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.6
+      value: -34.1
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6865,6 +7211,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!4 &1309989489 stripped
@@ -6889,7 +7247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.55
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6927,6 +7285,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!4 &1310839888 stripped
@@ -6956,7 +7326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.28
+      value: 22.168
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6993,6 +7363,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -7018,7 +7400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.28
+      value: 18.86
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7055,6 +7437,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -7303,11 +7697,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 319.7054
+      value: 319.57
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 609.152
+      value: 606.7
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7347,7 +7741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_ShadowUpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -7373,11 +7767,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 316.77542
+      value: 314.33
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 626.24567
+      value: 619.65
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7417,7 +7811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_ShadowUpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -7480,6 +7874,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -7545,6 +7951,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1 &1412725318
 GameObject:
   m_ObjectHideFlags: 0
@@ -7647,6 +8054,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1001 &1458031111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7664,7 +8072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.7
+      value: 25.071
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7701,6 +8109,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -7760,6 +8180,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 179.899
       objectReference: {fileID: 0}
+    - target: {fileID: -5342085157379354993, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 398736593329290345, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
       propertyPath: m_Name
       value: model
@@ -7780,6 +8212,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b1ba4d0806ee8a4182d4f6b52162235, type: 3}
   m_PrefabInstance: {fileID: 1464015360}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1464015363
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464015361}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9ebcf9eef44986743a6d2f9032869470, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1467574014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7797,7 +8325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.2285
+      value: 22.634
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7834,6 +8362,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -12867,6 +13407,7 @@ MonoBehaviour:
   marker: {fileID: 487090575}
   player: {fileID: 2094189332}
   tanks: 1
+  childhoodDoor: 0
 --- !u!1 &1514649418
 GameObject:
   m_ObjectHideFlags: 0
@@ -13134,63 +13675,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1579462432
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 585518322}
-    m_Modifications:
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 40.195618
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 28.678501
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -50.96924
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
-      propertyPath: m_Name
-      value: fire (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1 &1587056245
 GameObject:
   m_ObjectHideFlags: 0
@@ -13463,7 +13947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -44.599243
+      value: -45.33
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13496,6 +13980,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -13601,7 +14097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.01
+      value: 18.04
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13638,6 +14134,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -14330,6 +14838,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!1 &1758566704
@@ -14425,6 +14945,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
 --- !u!4 &1802369857 stripped
@@ -14454,7 +14986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.2285
+      value: 22.95
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14491,6 +15023,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -14826,11 +15370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 323.75543
+      value: 330.41
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 617.50195
+      value: 614.13
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14870,7 +15414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_ShadowUpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -15089,11 +15633,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.678501
+      value: 28.28
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.96924
+      value: -49.91
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15126,6 +15670,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -15216,11 +15772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.965607
+      value: 42.57
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.2285
+      value: 22.36
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15257,6 +15813,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -15447,7 +16015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25.7
+      value: 24.88
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15484,6 +16052,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -15820,7 +16400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 28.678501
+      value: 26.631
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15857,6 +16437,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -15939,7 +16531,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 859f0bf604f548340a68e5410228b6e3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16080,6 +16672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   system: {fileID: 1315207148}
+  timeStamp: 0
+  audioSource: {fileID: 1464015363}
   clip: {fileID: 8300000, guid: 9ebcf9eef44986743a6d2f9032869470, type: 3}
 --- !u!1001 &2099467296
 PrefabInstance:
@@ -16098,7 +16692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.05
+      value: 18.316
       objectReference: {fileID: 0}
     - target: {fileID: 1799540936141288356, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16135,6 +16729,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
@@ -16243,6 +16849,18 @@ PrefabInstance:
     - target: {fileID: 3744869644787657274, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886791233178449614, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820413002331943340, guid: 19780a1acbfeb214593636ad3488de78, type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19780a1acbfeb214593636ad3488de78, type: 3}

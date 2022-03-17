@@ -37,7 +37,6 @@ public class ReSpawnOnShoot : MonoBehaviour
         {
             //yield return new WaitForSeconds(1.5f);
             yield return new WaitForSeconds(0.0f);  
-            player.transform.position = teleportTarget.transform.position; //player position = spawn position
 
             Vignette tempVignette;
             if (volume.profile.TryGet<Vignette>(out tempVignette))

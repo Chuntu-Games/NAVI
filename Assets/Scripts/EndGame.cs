@@ -51,6 +51,8 @@ public class EndGame : MonoBehaviour
         File.AppendAllText(textDocumentName, "\n");
         File.AppendAllText(textDocumentName, "https://drive.google.com/file/d/11WEz-O5suxnW3b24hvyCQrKfml7yElZc/view?usp=sharing");
         File.AppendAllText(textDocumentName, "\n");
+        File.AppendAllText(textDocumentName, "https://github.com/ArnauGonzalez-upf/Abraza-la-inexistencia.git");
+        File.AppendAllText(textDocumentName, "\n");
 
         StartCoroutine(TheSequence());
     }

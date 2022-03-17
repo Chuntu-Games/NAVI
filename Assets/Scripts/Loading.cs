@@ -6,11 +6,41 @@ using UnityEngine.SceneManagement;
 
 public class Loading : MonoBehaviour
 {
+    public GameObject loadMain;
+    public GameObject loadTanks;
+    public GameObject loadChildhood;
+    public GameObject loadFamily;
+    public GameObject loadEnding;
+    public GameObject loadMenu;
 
 
     private void Start(){
         int loadinglevel=LoadScene.siguienteNivel;
-        StartCoroutine(IniciarCarga(loadinglevel));
+        switch (loadinglevel)
+        {
+            case 0:
+                loadMenu.SetActive(true);
+                break;
+            case 1:
+                loadMenu.SetActive(true);
+                break;
+            case 2:
+                loadMain.SetActive(true);
+                break;
+            case 3:
+                loadFamily.SetActive(true);
+                break;
+            case 4:
+                loadTanks.SetActive(true);
+                break;
+            case 5:
+                loadChildhood.SetActive(true);
+                break;
+            case 6:
+                loadEnding.SetActive(true);
+                break;
+        }
+                StartCoroutine(IniciarCarga(loadinglevel));
         
         
     }

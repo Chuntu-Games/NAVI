@@ -12,6 +12,8 @@ public class OpenDoor : MonoBehaviour
     public GameObject panel;
     private bool CR_running = false;
     public GameObject doorSubs;
+    public GameObject player;
+    public bool childhoodScene;
 
     // Start is called before the first frame update
     void Start()
@@ -89,6 +91,13 @@ public class OpenDoor : MonoBehaviour
 
     private void OnMouseDown()
     {
-        openDoor();
+        if (childhoodScene || ComputeDistance() < 7.0)
+            openDoor();
+    }
+
+    private float ComputeDistance()
+    {
+        var dist = Vector3.Distance(player.transform.position, transform.position);
+        return dist;
     }
 }

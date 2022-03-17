@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1279149, g: 0.15848112, b: 0.20980501, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2304,6 +2304,7 @@ MonoBehaviour:
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
   tanks: 0
+  childhoodDoor: 0
 --- !u!65 &295952370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3040,6 +3041,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   system: {fileID: 1481699312}
+  timeStamp: 0
+  audioSource: {fileID: 0}
   clip: {fileID: 8300000, guid: 9ebcf9eef44986743a6d2f9032869470, type: 3}
 --- !u!136 &346533427
 CapsuleCollider:
@@ -3066,10 +3069,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 859f0bf604f548340a68e5410228b6e3, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_PlayOnAwake: 0
+  m_Volume: 0.1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3267,7 +3270,7 @@ GameObject:
   - component: {fileID: 364938178}
   - component: {fileID: 364938177}
   - component: {fileID: 364938176}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Quad (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3570,6 +3573,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392514996}
   m_CullTransparentMesh: 1
+--- !u!1 &414437830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 414437831}
+  - component: {fileID: 414437834}
+  - component: {fileID: 414437833}
+  - component: {fileID: 414437832}
+  m_Layer: 0
+  m_Name: Quad (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &414437831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414437830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.59, y: 2.3699841, z: 8.370926}
+  m_LocalScale: {x: 13.024877, y: 7.5067, z: 7.5067}
+  m_Children: []
+  m_Father: {fileID: 1189957042}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &414437832
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414437830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &414437833
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414437830}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &414437834
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414437830}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &415879922 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2488091904649493593, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -4389,7 +4489,7 @@ GameObject:
   - component: {fileID: 553808737}
   - component: {fileID: 553808736}
   - component: {fileID: 553808735}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane018 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6957,7 +7057,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7f0155dde5fbca9429b11f3d656c6cdb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7016,7 +7116,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -7155,6 +7255,7 @@ MonoBehaviour:
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
   tanks: 0
+  childhoodDoor: 0
 --- !u!114 &989907949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8173,6 +8274,8 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: f3b790ddb1345be449da594d3d29e9ba, type: 3}
   panel: {fileID: 1575198855}
   doorSubs: {fileID: 1584017207}
+  player: {fileID: 346533423}
+  childhoodScene: 1
 --- !u!95 &1151030640
 Animator:
   serializedVersion: 3
@@ -8292,6 +8395,15 @@ AudioSource:
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.27152318
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -8325,6 +8437,7 @@ MonoBehaviour:
   marker: {fileID: 105277187}
   player: {fileID: 346533423}
   tanks: 0
+  childhoodDoor: 1
 --- !u!1 &1153807160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5982405092622287127, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -8404,6 +8517,7 @@ MonoBehaviour:
   marker: {fileID: 105277187}
   player: {fileID: 346533423}
   tanks: 0
+  childhoodDoor: 0
 --- !u!1 &1170970411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8665318631282041333, guid: 6c7aa9ac527af914a9e6fb4d9f2ae55b, type: 3}
@@ -8584,6 +8698,7 @@ Transform:
   - {fileID: 1403257885}
   - {fileID: 850847398}
   - {fileID: 1222523994}
+  - {fileID: 414437831}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10117,6 +10232,7 @@ MonoBehaviour:
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
   tanks: 0
+  childhoodDoor: 0
 --- !u!65 &1430251367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11310,6 +11426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToGo: 2
   load: {fileID: 1592568575}
+  familyScene: 0
+  granja: {fileID: 0}
 --- !u!65 &1571136369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13804,7 +13922,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 77c4a50d9b7da9b4ea1ef608aca672b0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13863,7 +13981,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -15563,6 +15681,14 @@ PrefabInstance:
       propertyPath: audioSrc
       value: 
       objectReference: {fileID: 346533428}
+    - target: {fileID: 738646681744756157, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: jumpHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 738646681744756157, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: groundMask.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
 --- !u!4 &2049716180 stripped
@@ -16034,6 +16160,7 @@ MonoBehaviour:
   marker: {fileID: 392514996}
   player: {fileID: 346533423}
   tanks: 0
+  childhoodDoor: 0
 --- !u!1001 &6023414606353633946
 PrefabInstance:
   m_ObjectHideFlags: 0

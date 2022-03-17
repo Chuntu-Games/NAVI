@@ -13,6 +13,7 @@ public class endLookObject : MonoBehaviour
     public GameObject portals;
     public GameObject ui;
     public bool tanksScene = false;
+    public GameObject identificacion;
 
     public void EndScene()
     {
@@ -22,7 +23,10 @@ public class endLookObject : MonoBehaviour
         portals.SetActive(true);
         ui.SetActive(true);
         if (tanksScene)
+        {
             completedScenes.sceneTanks = true;
+            identificacion.SetActive(false);
+        }
         else
             completedScenes.sceneFamily = true;
     }

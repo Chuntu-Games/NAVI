@@ -6,14 +6,13 @@ public class Shotgun : MonoBehaviour
 {
     public ParticleSystem system;
     private float coolDownPeriodInSeconds;
-    private float timeStamp;
-    AudioSource audioSource;
+    public float timeStamp;
+    public AudioSource audioSource;
     public AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         coolDownPeriodInSeconds = 3.0f;
         timeStamp = Time.time + coolDownPeriodInSeconds;
     }
@@ -23,7 +22,7 @@ public class Shotgun : MonoBehaviour
     {
         if (EquippedObjects.weaponUse && Input.GetMouseButtonDown(1) && (timeStamp <= Time.time))
         {
-            audioSource.PlayOneShot(clip, 1.0f);
+            audioSource.PlayOneShot(clip, 0.35f);
             system.Play();
             timeStamp = Time.time + coolDownPeriodInSeconds;
         }

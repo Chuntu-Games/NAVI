@@ -46,6 +46,7 @@ public class VaterScript : MonoBehaviour
             system2.Play();
             system3.Play();
             corpse.SetActive(true);
+            familySceneManager.showCorpo = true;
 
             coolDownPeriodInSeconds = 3.0f;
             timeStamp = Time.time + coolDownPeriodInSeconds;
@@ -81,7 +82,8 @@ public class VaterScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        vomit();
+        if (ComputeDistance() < 7.0)
+            vomit();
     }
 
     void Update()
@@ -98,5 +100,11 @@ public class VaterScript : MonoBehaviour
             this.gameObject.GetComponent<Circle>().marker.SetActive(false);
             this.gameObject.SetActive(false);
         }
+    }
+
+    private float ComputeDistance()
+    {
+        var dist = Vector3.Distance(player.transform.position, transform.position);
+        return dist;
     }
 }
