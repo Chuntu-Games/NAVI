@@ -53,8 +53,7 @@ public class lookObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(ComputeDistance());
-        if (ComputeDistance() < 7.0)
+        if ((!chapas && ComputeDistance() <= 7.0) || (chapas && ComputeDistance() <= 25.0))
             EndScene();
     }
 
